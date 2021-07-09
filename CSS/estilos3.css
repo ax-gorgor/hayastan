@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
+
+
+*{
+      
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-size: 24px;
+      font-family: 'Poppins', sans-serif;
+      
+     
+  }
+
+  body{ 
+       background: rgb(221, 221, 221);
+       min-width: 300px;
+    
+      }
+
+
+.songs{ display: flex;
+      flex-wrap: wrap;
+      flex-direction: row;
+      justify-content: space-between;
+       width: 100%; padding: 10px 10px;}
+
+.volver{ color: black; padding: 20px 10px; margin-left: 80%;}       
+
+ 
+.canciones1{font-size:1.4em; color: #094b65;} 
+
+
+ 
+
+ 
+      ul li 
+      
+          {display: inline-flex;
+      flex-wrap:wrap ;
+      list-style: none;
+      justify-content: center;
+      align-items: center;
+      
+      }
+     
+      ul li a 
+       
+         {
+     
+      text-decoration: none;
+      padding: 4px 10px;
+      color: #fff;
+      background: #094b65;
+      border-radius: 20px;
+      border: 1px solid rgb(73, 73, 73);
+       margin-left: 5px;}
+
+  ul li a:hover
+      {
+      background: #2b8bb1;
+      color:rgb(240, 240, 240);
+      border: 1px solid rgb(4, 70, 145);
+      }
+
+
+.flex1{
+
+      position: relative;
+      width: 100%;
+       
+      display: flex;
+      justify-content: center;
+      margin-top:  5%;
+
+      
+      
+     
+}
+.size{ padding: 10px; 
+      font-size: 1.0em; 
+      margin: 5px 5px 5px 5px;
+      width: 180px;   }
+
+ 
+p{text-align: center;}
+ 
+
+
+
+
+ 
+
+@media screen and (max-width:750px) {
+       .volver   {
+         margin-right: 10%;
+   }
+ 
+}
+
+   @media screen and (max-width:515px) {
+      .volver   {
+         margin-right: 20%;
+   }
+    
+   }
+   
+ 
+
+@media screen and (max-width:450px) {
+    .volver   {
+      margin-right: 30%;
+}
+ 
+}
+
+@media screen and (max-width:360px) {
+
+    
+
+  .volver   {
+      margin-right: 40%;
+}
+
+                  
+}
+
+@media screen and (max-width: 330px) {
+
+   .volver   {
+      margin-right: 52%;
+}
+
+                  
+}
+
+@media screen and (max-width: 300px) {
+
+   
+  
+        .volver {margin-right: 55%;}            
+  }
+ 
+
+ 
+
+ 
+
+

@@ -1,0 +1,151 @@
+ @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+ *
+ {margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;}
+
+  section{
+ 
+     position: relative;
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+    min-width: 250px;
+
+  }
+
+   header{
+           position: absolute;
+            min-width: 250px;
+           top: 0;
+           left: 0;
+           width: 100%;
+           padding: 40px 100px;
+           z-index: 100;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+
+          }
+      
+
+
+    
+
+
+  section video{
+   position: absolute;
+   top:0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+   }
+
+
+ .glass{
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 100%;
+   
+    backdrop-filter: blur(5px);
+    z-index: 1;
+    box-shadow: 10px 0 15px rgba(0, 0, 0, 0.1);
+    transition: 0.5s;
+    transition-delay:  1s;
+
+}
+
+
+
+.contenido {display: flex;
+      flex-wrap: wrap;
+       z-index: 1000;margin:auto;
+     ;  margin-top:5% ;
+        margin-left: 3%;
+    
+     width: 100%; padding: 10px 10px;
+     
+     
+     }
+.titulo1{font-size: 48px; color: #094b65;}
+.titulo2{font-size: 24px}
+ 
+.contenido:hover{ color: #3385a5 ;}
+
+ 
+ 
+  
+ 
+         
+ 
+ 
+section .sci {
+      margin: auto;
+      position: absolute;
+       bottom: 5%;
+      display: flex;
+      flex-wrap: wrap;
+      z-index: 100;
+      min-width: 250px;
+      
+}
+
+section .sci li{
+
+      list-style: none;
+      margin: 5px ;
+      padding: 0 8px;
+      background: rgba(255, 255, 255, 0.8);
+     }
+
+
+  section .sci li a {
+      
+      color: #111;
+      text-decoration: none;
+      display: inline-block;
+      letter-spacing: 2px;
+      font-weight: 500;
+      font-size: 12px;
+      text-transform: uppercase;
+       }
+
+      
+
+       @media screen and (max-width:450px) {
+
+         .sci{ display: flex; flex-direction: row; justify-content: space-around;}
+ 
+              
+      }
+      
+      @media screen and (max-width:360px) {
+      
+         .sci{ display: flex; flex-direction: row; justify-content: space-around;}
+      
+                        
+      }
+      
+      @media screen and (max-width: 330px) {
+      
+         .sci{ display: flex; flex-direction: row; justify-content: space-around;}
+      
+                        
+      }
+      
+      @media screen and (max-width: 300px) {
+      
+         .sci{ display: flex; flex-direction: row; justify-content: space-between;}
+      }
+ 
+
+ 
