@@ -205,7 +205,7 @@ z-index: 20; background: rgb(83, 83, 83);}
     .nombredeltema{padding: 15px 0px; font-size: 16px;}
 
    .letracancion         {
-      width: 100%; overflow: hidden; white-space: nowrap; font-size: 16px; margin-top: 145%;
+      width: 100%; overflow: hidden; white-space: nowrap; font-size: 16px; margin-top: 125%;
    }
 
    section .boxtitulocancion .volver   {
