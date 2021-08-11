@@ -11,7 +11,7 @@ function onYouTubeIframeAPIReady() {
    player = new YT.Player('player', {
      height: '315',
      width: '560',
-     videoId: '20Rk069G4-s',
+     videoId: '-BWti1qQTHM',
      
      events: {
        'onStateChange': onPlayerStateChange
@@ -58,128 +58,104 @@ function onYouTubeIframeAPIReady() {
 
   var tiempoDeVideo = player.getCurrentTime();
 
-  if(tiempoDeVideo > 45) {
+  if(tiempoDeVideo > 42) {
     a1.style.color = '#c51130'; //rojo
   } 
-  if(tiempoDeVideo > 50) {
+  if(tiempoDeVideo > 46) {
     a1.style.color = 'black';
-    a2.style.color = '#005caa'; //azul
+    a2.style.color = '#c51130';  
   } 
-  if(tiempoDeVideo > 55) {
+  if(tiempoDeVideo > 50) {
     a2.style.color = 'black';
-    a3.style.color = '#f37736'; //naranja
+    a3.style.color = '#c51130';  
   } 
 
-  if(tiempoDeVideo > 60) {
+  if(tiempoDeVideo > 54) {
     a3.style.color = 'black';
     a4.style.color = '#c51130';
   } 
 
-  if(tiempoDeVideo > 65) {
+  if(tiempoDeVideo > 57) {
     a4.style.color = 'black';
-    a3.style.color = '#005caa';
+    a1.style.color = '#c51130';
   } 
 
-  if(tiempoDeVideo > 70) {
+  if(tiempoDeVideo > 61) {
+    a1.style.color = 'black';
+    a2.style.color = '#c51130';
+  } 
+
+  if(tiempoDeVideo > 65) {
+    a2.style.color = 'black';
+    a3.style.color = '#c51130';
+  } 
+
+  if(tiempoDeVideo > 69) {
     a3.style.color = 'black';
-    a4.style.color = '#f37736';
+    a4.style.color = '#c51130';
   } 
 
-  if(tiempoDeVideo > 75) {
+  //
+
+  if(tiempoDeVideo > 72) {
     a4.style.color = 'black';
     a5.style.color = '#c51130';
   } 
 
-  if(tiempoDeVideo > 80) {
+  if(tiempoDeVideo > 76) {
     a5.style.color = 'black';
-    a6.style.color = '#005caa';
+    a6.style.color = '#c51130';
   } 
 
-  if(tiempoDeVideo > 85) {
+  if(tiempoDeVideo > 80) {
     a6.style.color = 'black';
-    a7.style.color = '#f37736';
+    a7.style.color = '#c51130';
   } 
 
-  if(tiempoDeVideo > 90) {
+//
+
+  if(tiempoDeVideo > 83) {
+    a7.style.color = 'black';
+    a5.style.color = '#c51130';
+  } 
+
+  
+  if(tiempoDeVideo > 87) {
+    a5.style.color = 'black';
+    a6.style.color = '#c51130';  
+  } 
+  if(tiempoDeVideo > 91) {
+    a6.style.color = 'black';
+    a7.style.color = '#c51130';  
+  } 
+
+  if(tiempoDeVideo > 95) {
     a7.style.color = 'black';
     a8.style.color = '#c51130';
   } 
 
-  if(tiempoDeVideo > 95) {
+  if(tiempoDeVideo > 99) {
     a8.style.color = 'black';
-    a7.style.color = '#005caa';
+    a9.style.color = '#c51130';
   } 
 
-  if(tiempoDeVideo > 100) {
-    a7.style.color = 'black';
-    a8.style.color = '#f37736';
-  } 
-
-  if(tiempoDeVideo > 105) {
-    a8.style.color = 'black';
-     ;
-  } 
-
-  if(tiempoDeVideo > 115) {
-    a9.style.color = '#c51130'; //rojo
-  } 
-  if(tiempoDeVideo > 120) {
+  if(tiempoDeVideo > 102) {
     a9.style.color = 'black';
-    a10.style.color = '#005caa'; //azul
-  } 
-  if(tiempoDeVideo > 125) {
-    a10.style.color = 'black';
-    a11.style.color = '#f37736'; //naranja
+    a8.style.color = '#c51130';
   } 
 
-  if(tiempoDeVideo > 130) {
-    a11.style.color = 'black';
-    a12.style.color = '#c51130';
-  } 
-
-  if(tiempoDeVideo > 135) {
-    a12.style.color = 'black';
-    a11.style.color = '#005caa';
-  } 
-
-  if(tiempoDeVideo > 140) {
-    a11.style.color = 'black';
-    a12.style.color = '#f37736';
+  if(tiempoDeVideo > 107) {
+    a8.style.color = 'black';
+    a9.style.color = '#c51130';
   } 
   
   //
 
-  if(tiempoDeVideo > 145) {
-    a13.style.color = '#c51130'; //rojo
-  } 
-  if(tiempoDeVideo > 150) {
-    a13.style.color = 'black';
-    a14.style.color = '#005caa'; //azul
-  } 
-  if(tiempoDeVideo > 155) {
-    a14.style.color = 'black';
-    a15.style.color = '#f37736'; //naranja
-  } 
+  if(tiempoDeVideo > 112) {
+    a9.style.color = 'black';  
 
-  if(tiempoDeVideo > 160) {
-    a15.style.color = 'black';
-    a16.style.color = '#c51130';
   } 
-
-  if(tiempoDeVideo > 165) {
-    a16.style.color = 'black';
-    a15.style.color = '#005caa';
-  } 
-
-  if(tiempoDeVideo > 170) {
-    a15.style.color = 'black';
-    a16.style.color = '#f37736';
-  } 
-  
-  if(tiempoDeVideo > 190) {
-    a16.style.color = 'black';
-     ;
-  } 
+   
 
   
 
