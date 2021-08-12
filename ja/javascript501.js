@@ -59,45 +59,63 @@ function onYouTubeIframeAPIReady() {
   var tiempoDeVideo = player.getCurrentTime();
 
   if(tiempoDeVideo > 42) {
-    a1.style.color = '#c51130'; //rojo
-  } 
+    a1.style.color = '#c51130'; 
+    a1.style.padding =  '2%' ;  
+       
+    } 
+
   if(tiempoDeVideo > 46) {
+    a1.style.padding =  '0%' ; 
     a1.style.color = 'black';
     a2.style.color = '#c51130';  
+    a2.style.padding =  '2%' ;
   } 
   if(tiempoDeVideo > 50) {
+    a2.style.padding =  '0%' ;
     a2.style.color = 'black';
     a3.style.color = '#c51130';  
+    a3.style.padding =  '2%' ;
   } 
 
   if(tiempoDeVideo > 54) {
+    a3.style.padding =  '0%' ;
     a3.style.color = 'black';
     a4.style.color = '#c51130';
+    a4.style.padding =  '2%' ;
   } 
 
   if(tiempoDeVideo > 57) {
+    a4.style.padding =  '0%' ;
     a4.style.color = 'black';
     a1.style.color = '#c51130';
+    a1.style.padding =  '2%' ;
   } 
 
   if(tiempoDeVideo > 61) {
+    a1.style.padding =  '0%' ;
     a1.style.color = 'black';
     a2.style.color = '#c51130';
+    a2.style.padding =  '2%' ;
   } 
 
   if(tiempoDeVideo > 65) {
+    a2.style.padding =  '0%' ;
     a2.style.color = 'black';
     a3.style.color = '#c51130';
+    a3.style.padding =  '2%' ;
   } 
 
   if(tiempoDeVideo > 69) {
+    a3.style.padding =  '0%' ;
     a3.style.color = 'black';
     a4.style.color = '#c51130';
+    a4.style.padding =  '2%' ;
   } 
 
   //
 
   if(tiempoDeVideo > 72) {
+    a4.style.padding =  '0%' ;
     a4.style.color = 'black';
     a5.style.color = '#c51130';
   } 
