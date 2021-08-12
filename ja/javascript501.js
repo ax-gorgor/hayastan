@@ -39,14 +39,7 @@ function onYouTubeIframeAPIReady() {
  var a7 = document.getElementById('a7');
  var a8 = document.getElementById('a8');
  var a9 = document.getElementById('a9');
- var a10 = document.getElementById('a10');
- var a11 = document.getElementById('a11');
- var a12 = document.getElementById('a12');
- var a13 = document.getElementById('a13');
- var a14 = document.getElementById('a14');
- var a15 = document.getElementById('a15');
- var a16 = document.getElementById('a16');
-  
+
 
  // Creamos una funcion que se va a fijar cuanto tiempo transcurrio (mirando el valor de
  // tiempoDeVideo) y si pasaron mas de 5 segundos, va a pintar "intro" de rojo. Si pasaron
@@ -60,62 +53,62 @@ function onYouTubeIframeAPIReady() {
 
   if(tiempoDeVideo > 42) {
     a1.style.color = '#c51130'; 
-    a1.style.padding =  '2%' ;  
+      
        
     } 
 
   if(tiempoDeVideo > 46) {
-    a1.style.padding =  '0%' ; 
+     
     a1.style.color = 'black';
     a2.style.color = '#c51130';  
-    a2.style.padding =  '2%' ;
+  
   } 
   if(tiempoDeVideo > 50) {
-    a2.style.padding =  '0%' ;
+  
     a2.style.color = 'black';
     a3.style.color = '#c51130';  
-    a3.style.padding =  '2%' ;
+  
   } 
 
   if(tiempoDeVideo > 54) {
-    a3.style.padding =  '0%' ;
+  
     a3.style.color = 'black';
     a4.style.color = '#c51130';
-    a4.style.padding =  '2%' ;
+  
   } 
 
   if(tiempoDeVideo > 57) {
-    a4.style.padding =  '0%' ;
+  
     a4.style.color = 'black';
     a1.style.color = '#c51130';
-    a1.style.padding =  '2%' ;
+  
   } 
 
   if(tiempoDeVideo > 61) {
-    a1.style.padding =  '0%' ;
+  
     a1.style.color = 'black';
     a2.style.color = '#c51130';
-    a2.style.padding =  '2%' ;
+    
   } 
 
   if(tiempoDeVideo > 65) {
-    a2.style.padding =  '0%' ;
+    
     a2.style.color = 'black';
     a3.style.color = '#c51130';
-    a3.style.padding =  '2%' ;
+    
   } 
 
   if(tiempoDeVideo > 69) {
-    a3.style.padding =  '0%' ;
+    
     a3.style.color = 'black';
     a4.style.color = '#c51130';
-    a4.style.padding =  '2%' ;
+    
   } 
 
   //
 
   if(tiempoDeVideo > 72) {
-    a4.style.padding =  '0%' ;
+    
     a4.style.color = 'black';
     a5.style.color = '#c51130';
   } 
