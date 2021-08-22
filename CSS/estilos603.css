@@ -42,80 +42,18 @@ z-index: 20; background: rgb(83, 83, 83);}
     
     margin-left: 2%; padding: 5px 5px; z-index: 10;}
 
-
+    .player{position: fixed; z-index: 10000;}
    
-    @media screen and (max-width:1000px) {
-
-      .claseyoutube{width: 560px; 
-      
-      }  
-
-      section .boxtitulocancion   {
-                       width: 560px;
-      }
-      section .boxtitulocancion .volver   {
-         margin-right: 5%;
-   }
-   .letracancion         {
-      width: 100%; overflow: hidden; white-space: nowrap; font-size: 24px;
-      
-   }
-   .autores{width: 100%; height: 34px; font-size: 16px ; }
-}
-
-
-
-    @media screen and (max-width:750px) {
-
-      .claseyoutube{width: 560px;  }      
-
-    
-   
-      section .boxtitulocancion   {
-                       width: 560px;
-      }
-      section .boxtitulocancion .volver   {
-         margin-right: 10%;
-   }
-   .letracancion         {
-      width: 100%; overflow: hidden; white-space: nowrap; font-size: 22px;
-      
-   }
-   .autores{width: 100%; height: 34px; font-size: 16px ; }
-}
-
-   @media screen and (max-width:515px) {
-
-      .claseyoutube{width: 515px;  }
-         
-      
-   
-      section .boxtitulocancion   {
-                       width: 100%;
-      }
-      section .boxtitulocancion .volver   {
-         margin-right: 20%;
-   }
-   .letracancion         {
-      width: 100%; overflow: hidden; white-space: nowrap; font-size: 20px;
-      
-   }
-
-   section .boxtitulocancion .volver   {
-      margin-right: 10%;}
-
-      .autores{width: 100%; height: 32px; font-size: 14px ; }
-   
-}
+     
 
 @media screen and (max-width:450px) {
 
    .claseyoutube{width: 450px;  }
 
-   
+   .nombredeltema{font-size: 18px; margin-top: 6px}
 
    section .boxtitulocancion   {
-                    width: 100%;
+                    width: 100%; height: 100px;
    }
    section .boxtitulocancion .volver   {
       margin-right: 10%;
@@ -125,11 +63,16 @@ z-index: 20; background: rgb(83, 83, 83);}
    
 }
         .autores{width: 100%; height: 32px; font-size: 14px ; }
+
+        .player{width: 100%;}
+
 }
 
 @media screen and (max-width:360px) {
 
    .claseyoutube {width: 360px;  }
+
+   .nombredeltema{font-size: 16px; margin-top: 6px}
 
    .boxtitulocancion {width: 100%; height: 60px; display: flex; 
       flex-direction: row; flex-wrap: nowrap; justify-content:space-between;
@@ -138,7 +81,7 @@ z-index: 20; background: rgb(83, 83, 83);}
     .nombredeltema{padding: 15px 0px; font-size: 16px;}
 
    .letracancion         {
-      width: 100%; overflow: hidden; white-space: nowrap; font-size: 16px; margin-top: 125%;
+      width: 100%; overflow: hidden; white-space: nowrap; font-size: 18px; margin-top: 125%;
    }
 
    section .boxtitulocancion .volver   {
@@ -146,44 +89,10 @@ z-index: 20; background: rgb(83, 83, 83);}
 }
 
    .autores{width: 100%; height: 30px; font-size: 13px ; }
+   .player{width: 100%;}
+
        
              
 }
 
-@media screen and (max-width: 330px) {
-
-   .claseyoutube{width: 330px;  }
-
-   .letracancion         {
-      width: 100%; overflow: hidden; white-space: nowrap; font-size: 14px;
-   
-   }
-
-    
-
-   section .boxtitulocancion .volver   {margin-top: 0%;
-      margin-right: 10%;
-}
-   
-.autores{width: 100%; height: 28px; font-size: 12px ; }
-                  
-}
-
-@media screen and (max-width: 300px) {
-
-   .claseyoutube{width: 300px;  }
-
-   .letracancion         {
-      width: 100%; overflow: hidden; white-space: nowrap; font-size: 14px; margin-top: 420px;
-   
-   }
-
-   section .boxtitulocancion .volver   {
-      margin-right: 55%; padding-left: 250px; margin-top: -25%;
-}
-
-        
-      
-      
-}
-
+ 
