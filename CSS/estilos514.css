@@ -95,7 +95,7 @@
       }
 
       section .boxtitulocancion .volver   {  
-         margin-right: 40%;
+         margin-right: 45%;
    }
    .letracancion{
        width: 100%;
@@ -112,6 +112,8 @@
        margin-top: -15px;
        
        }
+
+       .compositores {margin-top: 2px;}
    
    .player{
        width: 100%;
@@ -163,9 +165,12 @@
        height: 32px;
        font-size: 14px;
        margin-top: -15px;
+       padding: 5px ;
        
        }
-   
+
+   .compositores {margin-top: 2px;}
+
    .player{
        width: 100%;
        }
