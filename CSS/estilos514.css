@@ -95,7 +95,7 @@
       }
 
       section .boxtitulocancion .volver   {  
-         margin-left: 10px;
+         margin-right: 40%;
    }
    .letracancion{
        width: 100%;
@@ -148,7 +148,7 @@
       }
 
       section .boxtitulocancion .volver   {  
-         margin-left: 10px;
+         margin-right: 45%;
    }
    .letracancion{
        width: 100%;
