@@ -142,6 +142,7 @@ h5 {
      
     @media screen and (max-width:450px) {
 
+
       .cantantes {
 
          width: 100%;
@@ -162,10 +163,11 @@ h5 {
     
       .nombredeltema{
 
-      padding: 5px 0px;
-      font-size: 16px;
-      margin-top: 16px;
-   }
+         padding: 5px 5px;
+         font-size: 16px;
+         margin-top: -4px;
+   
+      }
    
       section .boxtitulocancion   {
 
@@ -227,6 +229,7 @@ h5 {
     
     
     @media screen and (max-width:360px) {
+ 
 
 
       .cantantes {
@@ -264,9 +267,10 @@ h5 {
     
       .nombredeltema{
 
-      padding: 5px 0px;
+      padding: 5px 5px;
       font-size: 16px;
-      margin-top: 16px;
+      margin-top: -4px;
+
    }
    
       section .boxtitulocancion   {
@@ -281,6 +285,7 @@ h5 {
       section .boxtitulocancion .volver   {  
          margin-right: 40%;
    }
+   
    .letracancion{
        
        width: 100%;
