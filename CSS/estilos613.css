@@ -8,9 +8,9 @@
 
  .cantantes{
     position: fixed;
-    background: rgb(177, 177, 177);
+    background: rgb(255, 255, 255);
     padding: 2%;
-    width: 48.3%;
+    width: 50%;
     height: 3%;
 
   
@@ -202,29 +202,23 @@ h5 {
        width: 100%;
        }
 
-       .cuadroFinal{
+       
+       .tamanoCuadro{
 
-         position: absolute;
-         
-          margin-top: 20px;
-         
-    
-        } 
-     
-    .tamanoCuadro{
+         width: 240px;
+          
+          margin-bottom: 5px; 
+         margin-left: 12%;
+         padding: 5%;
 
-      margin-left: -10px;
-
-    }
+        }
 
         .referenciaAlCuadro{
-    
-            margin-bottom: 25%; 
-            margin-left:  12px;
-              
-    
-    
-        }
+
+         margin-bottom: 25%; 
+         margin-left: 25%;
+                 
+    }
                  
     }
                     
@@ -322,29 +316,8 @@ h5 {
        }
 
 
-        .cuadroFinal{
-
-         position: absolute;
-         
-          margin-top: 20px;
-         
-    
-        } 
-     
-    .tamanoCuadro{
-
-      margin-left: -10px;
-
-    }
-
-        .referenciaAlCuadro{
-    
-            margin-bottom: 25%; 
-            margin-left:  12px;
-              
-    
-    
-        }
+       
+      
 
         .tamanoCuadro{
 
