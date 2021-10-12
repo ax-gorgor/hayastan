@@ -10,7 +10,7 @@
     position: fixed;
     background: rgb(177, 177, 177);
     padding: 2%;
-    width: 48.9%;
+    width: 48.3%;
     height: 3%;
 
   
@@ -116,14 +116,9 @@ h5 {
 
     .player{position: fixed; z-index: 10000;}
 
-    .cuadroFinal{
+   
 
-     position: absolute;
-     width: 200px;
-      margin-top: -20px;
-      margin-right:  -2px;
-
-    }
+   
 
     .tamanoCuadro{
 
@@ -350,7 +345,23 @@ h5 {
     
     
         }
+
+        .tamanoCuadro{
+
+         width: 240px;
+          
+          margin-bottom: 5px; 
+         margin-left: 12%;
+         padding: 5%;
+
+        }
+
+        .referenciaAlCuadro{
+
+         margin-bottom: 25%; 
+         margin-left: 25%;
                  
     }
+   }
     
      
