@@ -9,8 +9,8 @@ tag.src = "https://www.youtube.com/iframe_api";
 var player;
 function onYouTubeIframeAPIReady() {
    player = new YT.Player('player', {
-     height: '315',
-     width: '560',
+     height: '371',
+     width: '660',
      videoId: 'RNcPGl2NLNQ',
      
      events: {
