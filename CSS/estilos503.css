@@ -239,7 +239,7 @@
       
        
       
-       iframe { width: 360px;}
+       iframe { width: 360px;margin-left: 10px;}
       
       .hayeren{ margin-top: 155%;
                      font-size: 30px;
@@ -254,7 +254,7 @@
       
       
       
-      .videodeyoutoube{position: relative;  margin-top: 0; margin-left: 0px;}
+      .videodeyoutoube{position: relative;  margin-top: 0; margin-left: 5px;}
       
       .letracancion{position: absolute; margin-top:10px; font-size: 16px;
           
