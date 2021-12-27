@@ -26,49 +26,115 @@ function onYouTubeIframeAPIReady() {
    });
  }
 
-var titleName = 'Esh'
+ var tiempoDeVideo = 0;
 
-var tiempoDeTitulo = 0
+  
 
-function colorTitle(){
+ var a1 = document.getElementById('a1');
+ var a2 = document.getElementById('a2');
+ var a3 = document.getElementById('a3');
+ var a4 = document.getElementById('a4');
+ var a5 = document.getElementById('a5');
+ var a6 = document.getElementById('a6');
+ var a7 = document.getElementById('a7');
+ var a8 = document.getElementById('a8');
+ var a9 = document.getElementById('a9');
+ var a10 = document.getElementById('a10');
+  
+
+
+  
+
+ // Creamos una funcion que se va a fijar cuanto tiempo transcurrio (mirando el valor de
+ // tiempoDeVideo) 
+ function colorText() {
+
 
   var tiempoDeVideo = player.getCurrentTime();
 
-  if(tiempoDeTitulo > 5) {
-    titleName.style.color = '#002395';  
+  if(tiempoDeVideo > 9) {
+    a1.style.color = '#f37736'; //rojo    //1
+  } 
+  if(tiempoDeVideo > 63) {
+    a1.style.color = 'black';
+    a2.style.color = '#c51130'; //azul //2
+  } 
+  if(tiempoDeVideo > 80) {
+    a2.style.color = 'black';
+   a3.style.color = '#f37736'; //naranja //3
   } 
 
+   if(tiempoDeVideo > 88) {
+    a3.style.color = 'black';           //4
+    a4.style.color = '#c51130';
+   } 
 
-}
+   if(tiempoDeVideo > 103) {
+    a4.style.color = 'black';           //5
+    a5.style.color = '#f37736';
+   } 
 
-function onPlayerStateChange(event) {
+  if(tiempoDeVideo > 120) {
+    a5.style.color = 'black';           //6
+    a6.style.color = '#c51130';
+  } 
 
-  if (event.data == YT.PlayerState.PLAYING) {
-  
-   setInterval(() => {
-     tiempoDeTitulo = player.getCurrentTime();
-   }, 100);
-  }
-}
+  if(tiempoDeVideo > 141) {
+    a6.style.color = 'black';           //7
+   a7.style.color = '#f37736'; //naranja
+  } 
+
+   if(tiempoDeVideo > 151) {
+    a7.style.color = 'black';           //3
+    a8.style.color = '#c51130'; //rojo 
+   } 
+
+   if(tiempoDeVideo > 181) {
+    a8.style.color = 'black';           //3
+    
+   } 
+
+
+   //
 
  
-setInterval(() => {
- colorText()
-}, 100);
-
-
   
+
+ }
+
+ // Esta funcion se ejecuta cada vez que el video "cambia de estado", es decir, cada
+ // vez que el usuario hace play o pause.
  function onPlayerStateChange(event) {
 
    if (event.data == YT.PlayerState.PLAYING) {
-   
+     // Entramos a este "if", cuando el usuario hace play.
+
+    // Cuando el usuario hacie click en "play", queremos decirle a nuestro codigo
+    // que se fije cada una cierta cantidad de tiempo muy chiquita (en este caso
+    // 100 milisegundos) cual es el valor de tiempo transcurrido del video, y que se
+    // lo asigne a la variable "tiempoDeVideo". 
+    // Para eso, usamos la funcion de JavaScript "setInterval", que te permite decirle
+    // a Javascript: "corré todo esto que te digo, cada una cantidad X de milisegundos"
+    //Es decir, que cada 100 milisegundos,
+    // el codigo "tiempoDeVideo = player.getCurrentTime();" se va a correr automaticamente
+    // y asi nosotros vamos a poder tener la variable tiempoDeVideo actualizada.
+    // 
     setInterval(() => {
-      tiempoDeTitulo = player.getCurrentTime();
+      tiempoDeVideo = player.getCurrentTime();
     }, 100);
    }
  }
 
- 
+// Importante: con solo escribir la funcion colorText, como en la linea 41, no quiere decir
+// que esa funcion se va a ejecutar sola. De la misma manera que hicimos con el video,
+// hay que decirle a Javascript que ejecute esa funcion cada un tiempo muy pequeño (100 milisegundos
+// tambien alcanzan aca), asi a medida que "tiempoDeVideo" se va actualizando, el codigo tambien se fija
+// (gracias a la funcion colorText) cuanto tiempo paso, y si tiene que pintar de rojo algunas de las frases
+// (y volver a pintarlas de negro mas tarde).
 setInterval(() => {
   colorText()
 }, 100);
+
+ 
+
+ 
