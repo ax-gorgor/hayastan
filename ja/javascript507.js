@@ -1,4 +1,4 @@
-
+ 
 var tag = document.createElement('script');
 
 tag.src = "https://www.youtube.com/iframe_api";
@@ -9,7 +9,7 @@ tag.src = "https://www.youtube.com/iframe_api";
 var player;
 function onYouTubeIframeAPIReady() {
    player = new YT.Player('player', {
-     height: '371.5',
+     height: '371',
      width: '660',
      videoId: 'b5s-LbunOHc',
      
@@ -25,7 +25,30 @@ function onYouTubeIframeAPIReady() {
  // De aca para arriba, todo el codigo esta igual, no cambie nada.
 
  // Creamos una variable tiempoDeVideo (que empieza con valor 0) en la que vamos
- // a ir grabando el tiempo (segundos) en el que esta el video. 
+ // a ir grabando el tiempo (segundos) en el que esta el video. Cuando pase 1 segundo,
+ // tiempoDeVideo va a valer 1, cuando pasen 6.5 segundo de video, tiempoDeVideo va a valer
+ // 6.5 y asi.
+ var tiempoDeVideo = 0;
+
+ var a1 = document.getElementById('a1');
+ var a2 = document.getElementById('a2');
+ var a3 = document.getElementById('a3');
+ var a4 = document.getElementById('a4');
+ var a5 = document.getElementById('a5');
+ var a6 = document.getElementById('a6');
+ var a7 = document.getElementById('a7');
+ var a8 = document.getElementById('a8');
+ var a9 = document.getElementById('a9');
+ var a10 = document.getElementById('a10');
+ var a11 = document.getElementById('a11');
+ var a12 = document.getElementById('a12');
+ var a13 = document.getElementById('a13');
+ var a14 = document.getElementById('a14');
+ var a15 = document.getElementById('a15');
+ var a16 = document.getElementById('a16');
+  
+
+ 
  var tiempoDeVideo = 0;
 
   
