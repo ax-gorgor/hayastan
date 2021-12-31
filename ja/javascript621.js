@@ -26,18 +26,34 @@ function onYouTubeIframeAPIReady() {
    });
  }
 
-var titleName = 'Esh'
+ var tiempoDeVideo = 0;
 
-var tiempoDeTitulo = 0
+ var a0 = document.getElementById('a0');
+ var a1 = document.getElementById('a1');
+ var a2 = document.getElementById('a2');
+ var a3 = document.getElementById('a3');
+ var a4 = document.getElementById('a4');
+ var a5 = document.getElementById('a5');
+ var a6 = document.getElementById('a6');
+ var a7 = document.getElementById('a7');
+ var a8 = document.getElementById('a8');
 
-function colorTitle(){
+ function colorText() {
+
 
   var tiempoDeVideo = player.getCurrentTime();
 
-  if(tiempoDeTitulo > 5) {
-    titleName.style.color = '#002395';  
+  if(tiempoDeVideo > 0) {
+    a0.style.color = 'white'; //rojo    //1
   } 
 
+  if(tiempoDeVideo > 2) {
+    a0.style.color = 'grey'; //rojo    //1
+  } 
+
+  if(tiempoDeVideo > 6 ) {
+    a0.style.color = 'white'; //rojo    //1
+  } 
 
 }
 
