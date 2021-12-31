@@ -60,6 +60,18 @@ function onYouTubeIframeAPIReady() {
 
   var tiempoDeVideo = player.getCurrentTime();
 
+  if(tiempoDeVideo > 0) {
+    a0.style.color = 'white'; //rojo    //1
+  } 
+
+  if(tiempoDeVideo > 3) {
+    a0.style.color = 'grey'; //rojo    //1
+  } 
+
+  if(tiempoDeVideo > 10 ) {
+    a0.style.color = 'white'; //rojo    //1
+  } 
+
   if(tiempoDeVideo > 34) {
     a1.style.color = '#c51130'; //rojo    //1
   } 
