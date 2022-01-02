@@ -30,6 +30,7 @@ function onYouTubeIframeAPIReady() {
  // 6.5 y asi.
  var tiempoDeVideo = 0;
 
+ var a0 = document.getElementById('a0');
  var a1 = document.getElementById('a1');
  var a2 = document.getElementById('a2');
  var a3 = document.getElementById('a3');
@@ -50,6 +51,19 @@ function onYouTubeIframeAPIReady() {
 
 
   var tiempoDeVideo = player.getCurrentTime();
+
+
+  if(tiempoDeVideo > 0) {
+    a0.style.color = 'white'; //rojo    //1
+  } 
+
+  if(tiempoDeVideo > 3) {
+    a0.style.color = 'grey'; //rojo    //1
+  } 
+
+  if(tiempoDeVideo > 13 ) {
+    a0.style.color = 'white'; //rojo    //1
+  } 
 
   if(tiempoDeVideo > 42) {
     a1.style.color = '#c51130'; 
