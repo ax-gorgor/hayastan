@@ -28,15 +28,52 @@ function onYouTubeIframeAPIReady() {
  // a ir grabando el tiempo (segundos) en el que esta el video. 
  var tiempoDeVideo = 0;
 
-  
+ var a0 = document.getElementById('a0');
+ var a1 = document.getElementById('a1');
+ var a2 = document.getElementById('a2');
+ var a3 = document.getElementById('a3');
+ var a4 = document.getElementById('a4');
+ var a5 = document.getElementById('a5');
+ var a6 = document.getElementById('a6');
+ var a7 = document.getElementById('a7');
+ var a8 = document.getElementById('a8');
+ var a9 = document.getElementById('a9');
+ var a10 = document.getElementById('a10');
+ var a11 = document.getElementById('a11');
+ var a12 = document.getElementById('a12');
+ var a13 = document.getElementById('a13');
+ var a14 = document.getElementById('a14');
+ var a15 = document.getElementById('a15');
+ var a16 = document.getElementById('a16');
+ var a17 = document.getElementById('a17');
+ var a18 = document.getElementById('a18');
+ var a19 = document.getElementById('a19');
+ var a20 = document.getElementById('a20');
+ var a21 = document.getElementById('a21');
+ var a22 = document.getElementById('a22');
+ 
 
- // Creamos una funcion que se va a fijar cuanto tiempo transcurrio (mirando el valor de
- // tiempoDeVideo) 
+
+
  function colorText() {
 
 
   var tiempoDeVideo = player.getCurrentTime();
 
+
+  if(tiempoDeVideo > 0) {
+    a0.style.color = 'white'; //rojo    //1
+  } 
+
+  if(tiempoDeVideo > 3) {
+    a0.style.color = 'grey'; //rojo    //1
+  } 
+
+  if(tiempoDeVideo > 25 ) {
+    a0.style.color = 'white'; //rojo    //1
+  } 
+
+  
   if(tiempoDeVideo > 28) {
     a1.style.color = '#c51130'; //rojo    //1
   } 
@@ -225,6 +262,17 @@ function onYouTubeIframeAPIReady() {
     a21.style.color = 'black';           //7
    
   } 
+
+  
+
+  if(tiempoDeVideo > 223) {
+    a22.style.color = 'grey'; //rojo    //1
+  } 
+
+  if(tiempoDeVideo > 233 ) {
+    a22.style.color = 'white'; //rojo    //1
+  } 
+
 
    
 
