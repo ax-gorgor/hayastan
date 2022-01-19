@@ -12,6 +12,12 @@ function onYouTubeIframeAPIReady() {
      height: '371',
      width: '660',
      videoId: '20Rk069G4-s',
+     playerVars: { 
+			 
+      'showinfo': 0,
+'rel':0,
+'fs':0
+},
      
      events: {
        'onStateChange': onPlayerStateChange
@@ -19,17 +25,16 @@ function onYouTubeIframeAPIReady() {
    });
  }
 
-  
+ 
 
 
  // De aca para arriba, todo el codigo esta igual, no cambie nada.
 
  // Creamos una variable tiempoDeVideo (que empieza con valor 0) en la que vamos
- // a ir grabando el tiempo (segundos) en el que esta el video. Cuando pase 1 segundo,
- // tiempoDeVideo va a valer 1, cuando pasen 6.5 segundo de video, tiempoDeVideo va a valer
- // 6.5 y asi.
+ // a ir grabando el tiempo (segundos) en el que esta el video. 
  var tiempoDeVideo = 0;
 
+ var a0 = document.getElementById('a0');
  var a1 = document.getElementById('a1');
  var a2 = document.getElementById('a2');
  var a3 = document.getElementById('a3');
@@ -46,145 +51,39 @@ function onYouTubeIframeAPIReady() {
  var a14 = document.getElementById('a14');
  var a15 = document.getElementById('a15');
  var a16 = document.getElementById('a16');
-  
+ var a17 = document.getElementById('a17');
+ var a18 = document.getElementById('a18');
+ var a19 = document.getElementById('a19');
+ var a20 = document.getElementById('a20');
+ var a21 = document.getElementById('a21');
+ var a22 = document.getElementById('a22');
+ 
 
- // Creamos una funcion que se va a fijar cuanto tiempo transcurrio (mirando el valor de
- // tiempoDeVideo) y si pasaron mas de 5 segundos, va a pintar "intro" de rojo. Si pasaron
- // mas de 8 segundos, va a pintar "introd" (la segunda linea) de rojo y pintar "intro"
- // (la primera linea) de negro otra vez. Y si pasaron mas de 9 segundos, va a pintar la
- // tercera linea de rojo y la segunda de negro otra vez.
+
+
  function colorText() {
 
 
   var tiempoDeVideo = player.getCurrentTime();
 
-  if(tiempoDeVideo > 45) {
-    a1.style.color = '#c51130'; //rojo
-  } 
-  if(tiempoDeVideo > 50) {
-    a1.style.color = 'black';
-    a2.style.color = '#005caa'; //azul
-  } 
-  if(tiempoDeVideo > 55) {
-    a2.style.color = 'black';
-    a3.style.color = '#f37736'; //naranja
+
+  if(tiempoDeVideo > 0) {
+    a0.style.color = 'white'; //rojo    //1
   } 
 
-  if(tiempoDeVideo > 60) {
-    a3.style.color = 'black';
-    a4.style.color = '#c51130';
+  if(tiempoDeVideo > 6) {
+    a0.style.color = 'grey'; //rojo    //1
   } 
 
-  if(tiempoDeVideo > 65) {
-    a4.style.color = 'black';
-    a3.style.color = '#005caa';
+  if(tiempoDeVideo > 16 ) {
+    a0.style.color = 'white'; //rojo    //1
   } 
-
-  if(tiempoDeVideo > 70) {
-    a3.style.color = 'black';
-    a4.style.color = '#f37736';
-  } 
-
-  if(tiempoDeVideo > 75) {
-    a4.style.color = 'black';
-    a5.style.color = '#c51130';
-  } 
-
-  if(tiempoDeVideo > 80) {
-    a5.style.color = 'black';
-    a6.style.color = '#005caa';
-  } 
-
-  if(tiempoDeVideo > 85) {
-    a6.style.color = 'black';
-    a7.style.color = '#f37736';
-  } 
-
-  if(tiempoDeVideo > 90) {
-    a7.style.color = 'black';
-    a8.style.color = '#c51130';
-  } 
-
-  if(tiempoDeVideo > 95) {
-    a8.style.color = 'black';
-    a7.style.color = '#005caa';
-  } 
-
-  if(tiempoDeVideo > 100) {
-    a7.style.color = 'black';
-    a8.style.color = '#f37736';
-  } 
-
-  if(tiempoDeVideo > 105) {
-    a8.style.color = 'black';
-     ;
-  } 
-
-  if(tiempoDeVideo > 115) {
-    a9.style.color = '#c51130'; //rojo
-  } 
-  if(tiempoDeVideo > 120) {
-    a9.style.color = 'black';
-    a10.style.color = '#005caa'; //azul
-  } 
-  if(tiempoDeVideo > 125) {
-    a10.style.color = 'black';
-    a11.style.color = '#f37736'; //naranja
-  } 
-
-  if(tiempoDeVideo > 130) {
-    a11.style.color = 'black';
-    a12.style.color = '#c51130';
-  } 
-
-  if(tiempoDeVideo > 135) {
-    a12.style.color = 'black';
-    a11.style.color = '#005caa';
-  } 
-
-  if(tiempoDeVideo > 140) {
-    a11.style.color = 'black';
-    a12.style.color = '#f37736';
-  } 
-  
-  //
-
-  if(tiempoDeVideo > 145) {
-    a13.style.color = '#c51130'; //rojo
-  } 
-  if(tiempoDeVideo > 150) {
-    a13.style.color = 'black';
-    a14.style.color = '#005caa'; //azul
-  } 
-  if(tiempoDeVideo > 155) {
-    a14.style.color = 'black';
-    a15.style.color = '#f37736'; //naranja
-  } 
-
-  if(tiempoDeVideo > 160) {
-    a15.style.color = 'black';
-    a16.style.color = '#c51130';
-  } 
-
-  if(tiempoDeVideo > 165) {
-    a16.style.color = 'black';
-    a15.style.color = '#005caa';
-  } 
-
-  if(tiempoDeVideo > 170) {
-    a15.style.color = 'black';
-    a16.style.color = '#f37736';
-  } 
-  
-  if(tiempoDeVideo > 190) {
-    a16.style.color = 'black';
-     ;
-  } 
+}
 
   
 
- }
 
+ 
  // Esta funcion se ejecuta cada vez que el video "cambia de estado", es decir, cada
  // vez que el usuario hace play o pause.
  function onPlayerStateChange(event) {
