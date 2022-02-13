@@ -12,6 +12,12 @@ function onYouTubeIframeAPIReady() {
      height: '371.5',
      width: '660',
      videoId: 'MEGfhMLQQ9g',
+     playerVars: { 
+			
+      'showinfo': 0,
+'rel':0,
+'fs':0
+},
      
      events: {
        'onStateChange': onPlayerStateChange
@@ -51,6 +57,10 @@ function onYouTubeIframeAPIReady() {
  var a20 = document.getElementById('a20');
  var a21 = document.getElementById('a21');
  var a22 = document.getElementById('a22');
+
+ var b100 = document.getElementById('b100');
+ var b101 = document.getElementById('b101');
+ var b102 = document.getElementById('b102');
  
 
 
@@ -273,8 +283,37 @@ function onYouTubeIframeAPIReady() {
     a22.style.color = 'white'; //rojo    //1
   } 
 
+  // estrofas iluminadas !
 
+  if(tiempoDeVideo > 27) {
+    b100.style.color = 'black'; b100.style.fontSize = '105%' ;
+    b100.style.opacity = '1';   
+    b101.style.opacity = '0.4'; b101.style.fontSize = '100%';
+    b102.style.opacity = '0.4'; b102.style.fontSize = '100%'
+  } 
+
+  if(tiempoDeVideo > 93) {
+    b100.style.opacity = '0.4';  b100.style.fontSize = '100%' ;
+    b101.style.opacity = '1';   
+    b101.style.color = 'black';b101.style.fontSize = '105%';
+    b102.style.opacity = '0.4'; b102.style.fontSize = '100%'
+  } 
+
+  if(tiempoDeVideo > 160) {
+    b100.style.opacity = '0.4';  b100.style.fontSize = '100%' ;
+    b101.style.opacity = '0.4';  
+    b102.style.opacity = '1'; b102.style.fontSize = '100%'
+    b102.style.color = 'black'; b102.style.fontSize = '105%';
+  } 
    
+  if(tiempoDeVideo > 225 ) {
+    b100.style.color = 'black';  
+    b101.style.color = 'black';   
+    b102.style.color = 'black';  
+    b100.style.opacity = '1';  
+    b101.style.opacity = '1';   
+    b102.style.opacity = '1'; 
+  } 
 
   //
 
