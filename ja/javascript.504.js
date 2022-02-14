@@ -12,6 +12,12 @@ function onYouTubeIframeAPIReady() {
      height: '315',
      width: '560',
      videoId: 'pK4hUhA_Dsc',
+     playerVars: { 
+			
+      'showinfo': 0,
+'rel':0,
+'fs':0
+},
      
      events: {
        'onStateChange': onPlayerStateChange
@@ -27,6 +33,24 @@ function onYouTubeIframeAPIReady() {
  // Creamos una variable tiempoDeVideo (que empieza con valor 0) en la que vamos
  // a ir grabando el tiempo (segundos) en el que esta el video. 
  var tiempoDeVideo = 0;
+
+ var a1 = document.getElementById('a1');
+ var a2 = document.getElementById('a2');
+ var a3 = document.getElementById('a3');
+ var a4 = document.getElementById('a4');
+ var a5 = document.getElementById('a5');
+ var a6 = document.getElementById('a6');
+ var a7 = document.getElementById('a7');
+ var a8 = document.getElementById('a8');
+ var a9 = document.getElementById('a9');
+ var a10 = document.getElementById('a10');
+ var a11 = document.getElementById('a11');
+ var a12 = document.getElementById('a12');
+
+
+ var b100 = document.getElementById('b100');
+ var b101 = document.getElementById('b101');
+ var b102 = document.getElementById('b102');
 
  
   
@@ -197,6 +221,38 @@ function onYouTubeIframeAPIReady() {
     a12.style.color = 'black';
     
   }
+
+  // estrofas iluminadas !
+
+  if(tiempoDeVideo > 23) {
+    b100.style.color = 'black'; b100.style.fontSize = '105%' ;
+    b100.style.opacity = '1';   
+    b101.style.opacity = '0.4'; b101.style.fontSize = '100%';
+    b102.style.opacity = '0.4'; b102.style.fontSize = '100%'
+  } 
+
+  if(tiempoDeVideo > 67) {
+    b100.style.opacity = '0.4';  b100.style.fontSize = '100%' ;
+    b101.style.opacity = '1';   
+    b101.style.color = 'black';b101.style.fontSize = '105%';
+    b102.style.opacity = '0.4'; b102.style.fontSize = '100%'
+  } 
+
+  if(tiempoDeVideo > 121) {
+    b100.style.opacity = '0.4';  b100.style.fontSize = '100%' ;
+    b101.style.opacity = '0.4';  
+    b102.style.opacity = '1'; b102.style.fontSize = '100%'
+    b102.style.color = 'black'; b102.style.fontSize = '105%';
+  } 
+   
+  if(tiempoDeVideo > 160 ) {
+    b100.style.color = 'black';  
+    b101.style.color = 'black';   
+    b102.style.color = 'black';  
+    b100.style.opacity = '1';  
+    b101.style.opacity = '1';   
+    b102.style.opacity = '1'; 
+  } 
 
  
 
