@@ -65,6 +65,18 @@ function onYouTubeIframeAPIReady() {
 
   var tiempoDeVideo = player.getCurrentTime();
 
+  if(tiempoDeVideo > 0) {
+    a0.style.color = 'white'; //rojo    //1
+  } 
+
+  if(tiempoDeVideo > 3) {
+    a0.style.color = 'grey'; //rojo    //1
+  } 
+
+  if(tiempoDeVideo > 20 ) {
+    a0.style.color = 'white'; //rojo    //1
+  } 
+
   if(tiempoDeVideo > 22) {
     a1.style.color = '#c51130'; //rojo    //1
   } 
@@ -222,6 +234,8 @@ function onYouTubeIframeAPIReady() {
     
   }
 
+
+
   // estrofas iluminadas !
 
   if(tiempoDeVideo > 23) {
@@ -254,7 +268,16 @@ function onYouTubeIframeAPIReady() {
     b102.style.opacity = '1'; 
   } 
 
- 
+  if(tiempoDeVideo > 0 ) {
+    a22.style.color = 'white'; //rojo    //1
+  } 
+  if(tiempoDeVideo > 218) {
+    a22.style.color = 'grey'; //rojo    //1
+  } 
+
+  if(tiempoDeVideo > 224 ) {
+    a22.style.color = 'white'; //rojo    //1
+  } 
 
    
 

@@ -51,12 +51,15 @@ function onYouTubeIframeAPIReady() {
  var a14 = document.getElementById('a14');
  var a15 = document.getElementById('a15');
  var a16 = document.getElementById('a16');
- var a17 = document.getElementById('a17');
- var a18 = document.getElementById('a18');
- var a19 = document.getElementById('a19');
- var a20 = document.getElementById('a20');
- var a21 = document.getElementById('a21');
- var a22 = document.getElementById('a22');
+ 
+
+ var c100 = document.getElementById('c100');
+ var c101 = document.getElementById('c101');
+ var c102 = document.getElementById('c102');
+ var c103 = document.getElementById('c103');
+  
+ 
+ 
  
 
 
@@ -67,17 +70,207 @@ function onYouTubeIframeAPIReady() {
   var tiempoDeVideo = player.getCurrentTime();
 
 
-  if(tiempoDeVideo > 0) {
-    a0.style.color = 'white'; //rojo    //1
+  if(tiempoDeVideo > 5) {
+    a0.style.color = 'grey'; 
+  }
+
+  if(tiempoDeVideo > 25) {
+    a0.style.color = 'white'; 
+  }
+  
+  if(tiempoDeVideo > 45) {
+    a1.style.color = '#c51130'; //rojo    //1
+  } 
+  if(tiempoDeVideo > 50) {
+    a1.style.color = 'black';
+    a2.style.color = '#005caa'; //azul //2
+  } 
+  if(tiempoDeVideo > 55) {
+    a2.style.color = 'black';
+   a3.style.color = '#f37736'; //naranja //3
   } 
 
-  if(tiempoDeVideo > 6) {
-    a0.style.color = 'grey'; //rojo    //1
+   if(tiempoDeVideo > 60) {
+    a3.style.color = 'black';           //4
+    a4.style.color = '#c51130';
+   } 
+
+   if(tiempoDeVideo > 65) {
+    a4.style.color = 'black';           //5
+    a3.style.color = '#005caa';
+   } 
+
+  if(tiempoDeVideo > 70) {
+    a3.style.color = 'black';           //6
+    a4.style.color = '#f37736';
   } 
 
-  if(tiempoDeVideo > 16 ) {
-    a0.style.color = 'white'; //rojo    //1
+  if(tiempoDeVideo > 75) {
+    a4.style.color = 'black';           //22222
+   a5.style.color = '#f37736'; //naranja
   } 
+
+   if(tiempoDeVideo > 80) {
+    a5.style.color = 'black';           //3
+    a6.style.color = '#c51130';
+   } 
+
+   if(tiempoDeVideo > 85) {
+    a6.style.color = 'black';           //4
+    a7.style.color = '#005caa';
+   } 
+
+  if(tiempoDeVideo > 90) {
+    a7.style.color = 'black';            //5
+    a8.style.color = '#f37736';
+  } 
+
+  if(tiempoDeVideo > 95) {
+    a8.style.color = 'black';           //6
+    a7.style.color = '#f37736';
+  } 
+
+  if(tiempoDeVideo > 100) {
+    a7.style.color = 'black';           //7
+    a8.style.color = '#f37736';
+  } 
+
+
+  if(tiempoDeVideo > 106) {
+    a8.style.color = 'black';
+    
+  } 
+ 
+  if(tiempoDeVideo > 114) {    //33333333
+    
+    a9.style.color = '#005caa'; //azul //2
+  } 
+  if(tiempoDeVideo > 119) {
+    a9.style.color = 'black';
+   a10.style.color = '#f37736'; //naranja //3
+  } 
+
+   if(tiempoDeVideo > 124) {
+    a10.style.color = 'black';           //4
+    a11.style.color = '#c51130';
+   } 
+
+   if(tiempoDeVideo > 129) {
+    a11.style.color = 'black';           //5
+    a12.style.color = '#005caa';
+   } 
+
+  if(tiempoDeVideo > 134) {
+    a12.style.color = 'black';           //6
+    a11.style.color = '#f37736';
+  } 
+
+  if(tiempoDeVideo > 140) {
+    a11.style.color = 'black';           //7
+   a12.style.color = '#f37736'; //naranja
+  } 
+
+  //
+
+  if(tiempoDeVideo > 145) {
+    a12.style.color = 'black';
+   a13.style.color = '#f37736'; //naranja //3
+  } 
+
+  if(tiempoDeVideo > 150) {
+    a13.style.color = 'black';           //4
+    a14.style.color = '#c51130';
+   } 
+
+   if(tiempoDeVideo > 155) {
+    a14.style.color = 'black';           //5
+    a15.style.color = '#005caa';
+   } 
+
+  if(tiempoDeVideo > 160) {
+    a15.style.color = 'black';           //6
+    a16.style.color = '#f37736';
+  } 
+
+  if(tiempoDeVideo > 165) {
+    a16.style.color = 'black'; 
+    a15.style.color = '#005caa';          //7
+   
+  } 
+
+  if(tiempoDeVideo > 170) {
+    a15.style.color = 'black'; 
+    a16.style.color = '#c51130';          //7
+   
+  } 
+
+  if(tiempoDeVideo > 182) {
+    a16.style.color = 'black'; 
+     
+   
+  } 
+
+
+   //
+   //
+
+   //
+    
+
+ 
+ 
+   
+
+  // estrofas iluminadas !
+
+  if(tiempoDeVideo > 45) {
+    c100.style.color = 'black';
+       
+    c101.style.color = 'lightgrey';
+    c102.style.color = 'lightgrey'; 
+    c103.style.color = 'lightgrey'; 
+  } 
+
+  if(tiempoDeVideo > 75) {
+    c100.style.color = 'lightgrey';
+      
+    c101.style.color = 'black';
+    c102.style.color = 'lightgrey'; 
+    c103.style.color = 'lightgrey'; 
+  } 
+
+  if(tiempoDeVideo > 114) {
+    c100.style.color = 'lightgrey'; 
+    c101.style.color = 'lightgrey';  
+    
+    c102.style.color = 'black'; 
+    c103.style.color = 'lightgrey';
+  } 
+   
+  if(tiempoDeVideo > 145) {
+    c100.style.color = 'lightgrey'; 
+    c101.style.color = 'lightgrey';  
+    c102.style.color = 'lightgrey'; 
+    
+    c103.style.color = 'black'; 
+  } 
+
+
+
+
+  if(tiempoDeVideo > 180 ) {
+    c100.style.color = 'black';  
+    c101.style.color = 'black';   
+    c102.style.color = 'black'; 
+    c103.style.color = 'black'; 
+     
+  } 
+
+  if(tiempoDeVideo > 180) {
+    a0.style.color = 'grey'; 
+  }
+
+  
 }
 
   

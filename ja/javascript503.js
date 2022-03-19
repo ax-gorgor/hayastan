@@ -273,7 +273,9 @@ function onYouTubeIframeAPIReady() {
    
   } 
 
-  
+  if(tiempoDeVideo > 0 ) {
+    a22.style.color = 'white'; //rojo    //1
+  } 
 
   if(tiempoDeVideo > 223) {
     a22.style.color = 'grey'; //rojo    //1
