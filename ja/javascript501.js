@@ -1,4 +1,5 @@
  
+
 var tag = document.createElement('script');
 
 tag.src = "https://www.youtube.com/iframe_api";
@@ -9,9 +10,15 @@ tag.src = "https://www.youtube.com/iframe_api";
 var player;
 function onYouTubeIframeAPIReady() {
    player = new YT.Player('player', {
-     height: '371',
-     width: '660',
+     height: '100%',
+     width: '48%',
      videoId: '-BWti1qQTHM',
+     playerVars: { 
+			
+      'showinfo': 0,
+'rel':0,
+'fs':0
+},
      
      events: {
        'onStateChange': onPlayerStateChange
@@ -25,9 +32,7 @@ function onYouTubeIframeAPIReady() {
  // De aca para arriba, todo el codigo esta igual, no cambie nada.
 
  // Creamos una variable tiempoDeVideo (que empieza con valor 0) en la que vamos
- // a ir grabando el tiempo (segundos) en el que esta el video. Cuando pase 1 segundo,
- // tiempoDeVideo va a valer 1, cuando pasen 6.5 segundo de video, tiempoDeVideo va a valer
- // 6.5 y asi.
+ // a ir grabando el tiempo (segundos) en el que esta el video. 
  var tiempoDeVideo = 0;
 
  var a0 = document.getElementById('a0');
@@ -40,13 +45,27 @@ function onYouTubeIframeAPIReady() {
  var a7 = document.getElementById('a7');
  var a8 = document.getElementById('a8');
  var a9 = document.getElementById('a9');
+ var a10 = document.getElementById('a10');
+ var a11 = document.getElementById('a11');
+ var a12 = document.getElementById('a12');
+ var a13 = document.getElementById('a13');
+ var a14 = document.getElementById('a14');
+ var a15 = document.getElementById('a15');
+ var a16 = document.getElementById('a16');
+ var a17 = document.getElementById('a17');
+ var a18 = document.getElementById('a18');
+ var a19 = document.getElementById('a19');
+ var a20 = document.getElementById('a20');
+ var a21 = document.getElementById('a21');
+ var a22 = document.getElementById('a22');
+
+ var b100 = document.getElementById('b100');
+ var b101 = document.getElementById('b101');
+ var b102 = document.getElementById('b102');
+ 
 
 
- // Creamos una funcion que se va a fijar cuanto tiempo transcurrio (mirando el valor de
- // tiempoDeVideo) y si pasaron mas de 5 segundos, va a pintar "intro" de rojo. Si pasaron
- // mas de 8 segundos, va a pintar "introd" (la segunda linea) de rojo y pintar "intro"
- // (la primera linea) de negro otra vez. Y si pasaron mas de 9 segundos, va a pintar la
- // tercera linea de rojo y la segunda de negro otra vez.
+
  function colorText() {
 
 
@@ -61,126 +80,245 @@ function onYouTubeIframeAPIReady() {
     a0.style.color = 'grey'; //rojo    //1
   } 
 
-  if(tiempoDeVideo > 13 ) {
+  if(tiempoDeVideo > 25 ) {
     a0.style.color = 'white'; //rojo    //1
   } 
 
+  
   if(tiempoDeVideo > 42) {
-    a1.style.color = '#c51130'; 
-      
-       
-    } 
-
+    a1.style.color = '#c51130'; //rojo    //1
+  } 
   if(tiempoDeVideo > 46) {
-     
     a1.style.color = 'black';
-    a2.style.color = '#c51130';  
-  
+    a2.style.color = '#005caa'; //azul //2
   } 
-  if(tiempoDeVideo > 50) {
-  
+  if(tiempoDeVideo > 49) {
     a2.style.color = 'black';
-    a3.style.color = '#c51130';  
-  
+   a3.style.color = '#f37736'; //naranja //3
   } 
 
-  if(tiempoDeVideo > 54) {
-  
-    a3.style.color = 'black';
+   if(tiempoDeVideo > 53) {
+    a3.style.color = 'black';           //4
     a4.style.color = '#c51130';
-  
-  } 
+   } 
+
+   if(tiempoDeVideo > 54) {
+    a4.style.color = 'black';           //5
+    a5.style.color = '#005caa';
+   } 
 
   if(tiempoDeVideo > 57) {
-  
-    a4.style.color = 'black';
-    a1.style.color = '#c51130';
-  
+    a5.style.color = 'black';           //6
+    a1.style.color = '#f37736';
   } 
 
   if(tiempoDeVideo > 61) {
-  
-    a1.style.color = 'black';
-    a2.style.color = '#c51130';
-    
+    a1.style.color = 'black';           //7
+   a2.style.color = '#f37736'; //naranja
   } 
 
-  if(tiempoDeVideo > 65) {
-    
-    a2.style.color = 'black';
+   if(tiempoDeVideo > 64) {
+    a2.style.color = 'black';           //3
     a3.style.color = '#c51130';
-    
-  } 
+   } 
 
-  if(tiempoDeVideo > 69) {
-    
-    a3.style.color = 'black';
-    a4.style.color = '#c51130';
-    
-  } 
-
-  //
+   if(tiempoDeVideo > 68) {
+    a3.style.color = 'black';           //4
+    a4.style.color = '#005caa';
+   } 
 
   if(tiempoDeVideo > 72) {
-    
-    a4.style.color = 'black';
-    a5.style.color = '#c51130';
+    a4.style.color = 'black';            //5
+    a5.style.color = '#f37736';
   } 
 
   if(tiempoDeVideo > 76) {
-    a5.style.color = 'black';
-    a6.style.color = '#c51130';
+    a5.style.color = 'black';           //6
+    a6.style.color = '#f37736';
   } 
 
   if(tiempoDeVideo > 80) {
-    a6.style.color = 'black';
-    a7.style.color = '#c51130';
+    a6.style.color = 'black';           //7
+    a7.style.color = '#f37736';
   } 
 
-//
+  //
 
-  if(tiempoDeVideo > 83) {
+  if(tiempoDeVideo > 84) {
     a7.style.color = 'black';
-    a5.style.color = '#c51130';
+    a5.style.color = '#c51130'; //rojo    //1
   } 
-
-  
   if(tiempoDeVideo > 87) {
     a5.style.color = 'black';
-    a6.style.color = '#c51130';  
+    a6.style.color = '#005caa'; //azul //2
   } 
-  if(tiempoDeVideo > 91) {
-    a6.style.color = 'black';
-    a7.style.color = '#c51130';  
-  } 
-
-  if(tiempoDeVideo > 95) {
-    a7.style.color = 'black';
-    a8.style.color = '#c51130';
+  if(tiempoDeVideo > 90) {
+    a9.style.color = 'black';
+   a10.style.color = '#f37736'; //naranja //3
   } 
 
-  if(tiempoDeVideo > 99) {
-    a8.style.color = 'black';
-    a9.style.color = '#c51130';
-  } 
+   if(tiempoDeVideo > 94) {
+    a10.style.color = 'black';           //4
+    a11.style.color = '#c51130';
+   } 
+
+   if(tiempoDeVideo > 99) {
+    a11.style.color = 'black';           //5
+    a12.style.color = '#005caa';
+   } 
 
   if(tiempoDeVideo > 102) {
-    a9.style.color = 'black';
-    a8.style.color = '#c51130';
+    a12.style.color = 'black';           //6
+    a11.style.color = '#f37736';
   } 
 
   if(tiempoDeVideo > 107) {
-    a8.style.color = 'black';
-    a9.style.color = '#c51130';
+    a11.style.color = 'black';           //7
+   a12.style.color = '#f37736'; //naranja
   } 
-  
+
+  /////////////////////
+
+  if(tiempoDeVideo > 133) {
+    a14.style.color = 'black';
+   a10.style.color = '#f37736'; //naranja //3
+  } 
+
+  if(tiempoDeVideo > 140) {
+    a10.style.color = 'black';           //4
+    a11.style.color = '#c51130';
+   } 
+
+   if(tiempoDeVideo > 143) {
+    a11.style.color = 'black';           //5
+    a12.style.color = '#005caa';
+   } 
+
+  if(tiempoDeVideo > 145) {
+    a12.style.color = 'black';           //6
+    a13.style.color = '#f37736';
+  } 
+
+  if(tiempoDeVideo > 152) {
+    a13.style.color = 'black';           //7
+   a14.style.color = '#f37736'; //naranja
+  } 
+
+   //
+   //
+
+   //
+
+  if(tiempoDeVideo > 160) {
+    a14.style.color = 'black';
+    a15.style.color = '#c51130'; //rojo    //1
+  } 
+  if(tiempoDeVideo > 167) {
+    a15.style.color = 'black';
+    a16.style.color = '#005caa'; //azul //2
+  } 
+  if(tiempoDeVideo > 174) {
+    a16.style.color = 'black';
+   a17.style.color = '#f37736'; //naranja //3
+  } 
+
+   if(tiempoDeVideo > 181) {
+    a17.style.color = 'black';           //4
+    a18.style.color = '#c51130';
+   } 
+
+   if(tiempoDeVideo > 184) {
+    a18.style.color = 'black';           //5
+    a19.style.color = '#005caa';
+   } 
+
+  if(tiempoDeVideo > 186) {
+    a19.style.color = 'black';           //6
+    a20.style.color = '#f37736';
+  } 
+
+  if(tiempoDeVideo > 193) {
+    a20.style.color = 'black';           //7
+   a21.style.color = '#f37736'; //naranja
+  } 
+
   //
 
-  if(tiempoDeVideo > 112) {
-    a9.style.color = 'black';  
+  if(tiempoDeVideo > 199) {
+    a21.style.color = 'black';
+   a17.style.color = '#f37736'; //naranja //3
+  } 
 
+  if(tiempoDeVideo > 205) {
+    a17.style.color = 'black';           //4
+    a18.style.color = '#c51130';
+   } 
+
+   if(tiempoDeVideo > 208) {
+    a18.style.color = 'black';           //5
+    a19.style.color = '#005caa';
+   } 
+
+  if(tiempoDeVideo > 211) {
+    a19.style.color = 'black';           //6
+    a20.style.color = '#f37736';
+  } 
+
+  if(tiempoDeVideo > 218) {
+    a20.style.color = 'black';           //7
+   a21.style.color = '#f37736'; //naranja
+  } 
+
+  if(tiempoDeVideo > 225) {
+    a21.style.color = 'black';           //7
+   
+  } 
+
+  if(tiempoDeVideo > 0 ) {
+    a22.style.color = 'white'; //rojo    //1
+  } 
+
+  if(tiempoDeVideo > 223) {
+    a22.style.color = 'grey'; //rojo    //1
+  } 
+
+  if(tiempoDeVideo > 233 ) {
+    a22.style.color = 'white'; //rojo    //1
+  } 
+
+  // estrofas iluminadas !
+
+  if(tiempoDeVideo > 27) {
+    b100.style.color = 'black'; b100.style.fontSize = '105%' ;
+    b100.style.opacity = '1';   
+    b101.style.opacity = '0.4'; b101.style.fontSize = '100%';
+    b102.style.opacity = '0.4'; b102.style.fontSize = '100%'
+  } 
+
+  if(tiempoDeVideo > 93) {
+    b100.style.opacity = '0.4';  b100.style.fontSize = '100%' ;
+    b101.style.opacity = '1';   
+    b101.style.color = 'black';b101.style.fontSize = '105%';
+    b102.style.opacity = '0.4'; b102.style.fontSize = '100%'
+  } 
+
+  if(tiempoDeVideo > 160) {
+    b100.style.opacity = '0.4';  b100.style.fontSize = '100%' ;
+    b101.style.opacity = '0.4';  
+    b102.style.opacity = '1'; b102.style.fontSize = '100%'
+    b102.style.color = 'black'; b102.style.fontSize = '105%';
   } 
    
+  if(tiempoDeVideo > 225 ) {
+    b100.style.color = 'black';  
+    b101.style.color = 'black';   
+    b102.style.color = 'black';  
+    b100.style.opacity = '1';  
+    b101.style.opacity = '1';   
+    b102.style.opacity = '1'; 
+  } 
+
+  //
 
   
 
