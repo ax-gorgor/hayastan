@@ -102,13 +102,13 @@ function onYouTubeIframeAPIReady() {
     a4.style.color = '#c51130';
    } 
 
-   if(tiempoDeVideo > 54) {
+   /*if(tiempoDeVideo > 54) {
     a4.style.color = 'black';           //5
     a5.style.color = '#005caa';
-   } 
+   } */
 
   if(tiempoDeVideo > 57) {
-    a5.style.color = 'black';           //6
+    a4.style.color = 'black';           //6
     a1.style.color = '#f37736';
   } 
 
@@ -144,7 +144,7 @@ function onYouTubeIframeAPIReady() {
 
   //
 
-  if(tiempoDeVideo > 84) {
+  if(tiempoDeVideo > 83) {
     a7.style.color = 'black';
     a5.style.color = '#c51130'; //rojo    //1
   } 
@@ -153,138 +153,38 @@ function onYouTubeIframeAPIReady() {
     a6.style.color = '#005caa'; //azul //2
   } 
   if(tiempoDeVideo > 90) {
-    a9.style.color = 'black';
-   a10.style.color = '#f37736'; //naranja //3
+    a6.style.color = 'black';
+   a7.style.color = '#f37736'; //naranja //3
   } 
 
-   if(tiempoDeVideo > 94) {
-    a10.style.color = 'black';           //4
-    a11.style.color = '#c51130';
+   if(tiempoDeVideo > 95) {
+    a7.style.color = 'black';           //4
+    a8.style.color = '#c51130';
    } 
 
    if(tiempoDeVideo > 99) {
-    a11.style.color = 'black';           //5
-    a12.style.color = '#005caa';
+    a8.style.color = 'black';           //5
+    a9.style.color = '#005caa';
    } 
 
   if(tiempoDeVideo > 102) {
-    a12.style.color = 'black';           //6
-    a11.style.color = '#f37736';
+    a9.style.color = 'black';           //6
+    a8.style.color = '#f37736';
   } 
 
   if(tiempoDeVideo > 107) {
-    a11.style.color = 'black';           //7
-   a12.style.color = '#f37736'; //naranja
+    a8.style.color = 'black';           //7
+   a9.style.color = '#f37736'; //naranja
   } 
+
+  if(tiempoDeVideo > 113) {
+    a9.style.color = 'black';           //7
+  }
+  
 
   /////////////////////
 
-  if(tiempoDeVideo > 133) {
-    a14.style.color = 'black';
-   a10.style.color = '#f37736'; //naranja //3
-  } 
-
-  if(tiempoDeVideo > 140) {
-    a10.style.color = 'black';           //4
-    a11.style.color = '#c51130';
-   } 
-
-   if(tiempoDeVideo > 143) {
-    a11.style.color = 'black';           //5
-    a12.style.color = '#005caa';
-   } 
-
-  if(tiempoDeVideo > 145) {
-    a12.style.color = 'black';           //6
-    a13.style.color = '#f37736';
-  } 
-
-  if(tiempoDeVideo > 152) {
-    a13.style.color = 'black';           //7
-   a14.style.color = '#f37736'; //naranja
-  } 
-
-   //
-   //
-
-   //
-
-  if(tiempoDeVideo > 160) {
-    a14.style.color = 'black';
-    a15.style.color = '#c51130'; //rojo    //1
-  } 
-  if(tiempoDeVideo > 167) {
-    a15.style.color = 'black';
-    a16.style.color = '#005caa'; //azul //2
-  } 
-  if(tiempoDeVideo > 174) {
-    a16.style.color = 'black';
-   a17.style.color = '#f37736'; //naranja //3
-  } 
-
-   if(tiempoDeVideo > 181) {
-    a17.style.color = 'black';           //4
-    a18.style.color = '#c51130';
-   } 
-
-   if(tiempoDeVideo > 184) {
-    a18.style.color = 'black';           //5
-    a19.style.color = '#005caa';
-   } 
-
-  if(tiempoDeVideo > 186) {
-    a19.style.color = 'black';           //6
-    a20.style.color = '#f37736';
-  } 
-
-  if(tiempoDeVideo > 193) {
-    a20.style.color = 'black';           //7
-   a21.style.color = '#f37736'; //naranja
-  } 
-
-  //
-
-  if(tiempoDeVideo > 199) {
-    a21.style.color = 'black';
-   a17.style.color = '#f37736'; //naranja //3
-  } 
-
-  if(tiempoDeVideo > 205) {
-    a17.style.color = 'black';           //4
-    a18.style.color = '#c51130';
-   } 
-
-   if(tiempoDeVideo > 208) {
-    a18.style.color = 'black';           //5
-    a19.style.color = '#005caa';
-   } 
-
-  if(tiempoDeVideo > 211) {
-    a19.style.color = 'black';           //6
-    a20.style.color = '#f37736';
-  } 
-
-  if(tiempoDeVideo > 218) {
-    a20.style.color = 'black';           //7
-   a21.style.color = '#f37736'; //naranja
-  } 
-
-  if(tiempoDeVideo > 225) {
-    a21.style.color = 'black';           //7
    
-  } 
-
-  if(tiempoDeVideo > 0 ) {
-    a22.style.color = 'white'; //rojo    //1
-  } 
-
-  if(tiempoDeVideo > 223) {
-    a22.style.color = 'grey'; //rojo    //1
-  } 
-
-  if(tiempoDeVideo > 233 ) {
-    a22.style.color = 'white'; //rojo    //1
-  } 
 
   // estrofas iluminadas !
 
