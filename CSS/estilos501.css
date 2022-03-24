@@ -162,6 +162,11 @@ h4{ color:#fff}
                }
    .linksExt{margin-top: -40px;}
 
+
+
+   .linksExt{text-decoration: underline;}
+
+
    /* parte responsive----------------------------------------------------------------
    -----------------------------------------------------------------------------------
    -----------------------------------------------------------------------------------
@@ -536,13 +541,7 @@ h4{ color:#fff}
 
 
 
-
-
-
-
-
-   
-      @media screen and (max-width:450px) {
+     @media screen and (max-width:450px) {
 
       .container1{width: 100%;}
 
