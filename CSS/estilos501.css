@@ -147,7 +147,9 @@ h4{ color:#fff}
 
     }
 
-   h6 {
+    
+
+   h5 {
 
       white-space: nowrap;
 
@@ -158,7 +160,7 @@ h4{ color:#fff}
    .negroBold{ color: #000; font-size: 24px;
                 
                }
-   .linksExt{padding:  0px 5px;}
+   .linksExt{margin-top: -40px;}
 
    /* parte responsive----------------------------------------------------------------
    -----------------------------------------------------------------------------------
@@ -239,7 +241,7 @@ h4{ color:#fff}
     }
 
      
-
+    .traduccion{ margin-top: -40px ;}
             
      .volver {width: 100%;
       height: 10px;}
@@ -328,6 +330,8 @@ h4{ color:#fff}
        margin-right: 50%;
  
     }
+
+    .traduccion{ margin-top: -40px ;}
 
     .player{height: 40%;
             width: 100%;}
@@ -426,7 +430,7 @@ h4{ color:#fff}
       height: 10px;}
       
      
-
+      .traduccion{ margin-top: -40px ;}
 
 
 
@@ -510,7 +514,7 @@ h4{ color:#fff}
  
     }
 
-     
+    .traduccion{ margin-top: -40px ;} 
 
             
      .volver {width: 100%;
@@ -610,7 +614,7 @@ h4{ color:#fff}
       }
 
       
-
+      .traduccion{ margin-top: -40px ;}
               
        .volver {width: 100%;
         height: 10px;}
@@ -703,6 +707,8 @@ h4{ color:#fff}
           
    
       }
+
+      .traduccion{ margin-top: -40px ;}
 
       .volver svg { margin-left: 80%;  }
 
