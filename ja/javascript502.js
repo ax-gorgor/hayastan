@@ -58,6 +58,13 @@ function onYouTubeIframeAPIReady() {
 
   var tiempoDeVideo = player.getCurrentTime();
 
+  if(tiempoDeVideo > 5) {
+    a0.style.color = 'grey';}
+
+    if(tiempoDeVideo > 15) {
+      a0.style.color = 'white';}
+    
+
   if(tiempoDeVideo > 21) {
     a1.style.color = '#c51130'; //rojo
   } 
@@ -186,8 +193,29 @@ function onYouTubeIframeAPIReady() {
      
   } 
 
+  if(tiempoDeVideo > 21) {
+    a13.style.color = 'black';
+    a14.style.color = 'grey';
+    a15.style.color = 'grey';
+  } 
 
+  if(tiempoDeVideo > 61) {
+    a13.style.color = 'grey';
+    a14.style.color = 'black';
+    a15.style.color = 'grey';
+  } 
 
+  if(tiempoDeVideo > 101) {
+    a13.style.color = 'grey';
+    a14.style.color = 'grey';
+    a15.style.color = 'black';
+  } 
+
+  if(tiempoDeVideo > 142) {
+    a13.style.color = 'black';
+    a14.style.color = 'black';
+    a15.style.color = 'black';
+  } 
   
 
  }
