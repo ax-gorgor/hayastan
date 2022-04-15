@@ -70,7 +70,7 @@ svg { margin-left: 50%;}
             padding: 50px;
             color: #000;
             border-radius: 5px;
-            backdrop-filter: blur(30px);
+            backdrop-filter: blur(40px);
             border: 2px solid transparent;
             background-clip: padding-box;
             box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.0.3);
@@ -92,7 +92,7 @@ svg { margin-left: 50%;}
             padding: 50px;
             color: #000;
             border-radius: 5px;
-            backdrop-filter: blur(30px);
+            backdrop-filter: blur(40px);
             border: 2px solid transparent;
             background-clip: padding-box;
             box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.0.3);
@@ -112,7 +112,7 @@ svg { margin-left: 50%;}
             padding: 50px;
             color: #000;
             border-radius: 5px;
-            backdrop-filter: blur(30px);
+            backdrop-filter: blur(40px);
             border: 2px solid transparent;
             background-clip: padding-box;
             box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.0.3);
