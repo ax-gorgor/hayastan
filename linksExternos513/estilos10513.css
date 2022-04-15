@@ -16,22 +16,21 @@ background: url(fotos/hairenik_2.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 background-position: 100% 20%;
+ }
+
  
-
-
-}
 
 .imagenSize{width: 330px;}
 
 .glass{
-        margin-top: 120px;
+        margin-top: 10px;
         width: 330px;
         height: 100%;
         background-color: rgba(255, 255, 255, 0.1);
-        padding: 50px;
+        padding: 20px;
         color: #000;
         border-radius: 5px;
-        backdrop-filter: blur(30px);
+        backdrop-filter: blur(70px);
         border: 2px solid transparent;
         background-clip: padding-box;
         box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.0.3);
@@ -40,45 +39,65 @@ background-position: 100% 20%;
 
 }
 
-h2{
+ .hairenik p{
 
     font-size: 30px;
     margin-bottom: 20px;
+    color: #000000;
 
 }
 
 p{
 
-    font-size: 16px;
+    font-size: 20px;
     margin-bottom: 10px;
+    color: #000000;
 }
 
 .volver{ margin-top: 15px;}
 
 .container .sarda {width: 2%;};
 
-svg { margin-left: 50%;}
+svg { margin-left: 50%;
+         }
 
 /*----------------------------------------------------------*/
 /*----------------------------------------------------------*/
 
 @media screen and (max-width:567px) {
 
-    .glass{width: 330px;
+    .glass{
+        margin-top: 120px;
+        width: 330px;
             height: 100%;
             background-color: rgba(255, 255, 255, 0.1);
             padding: 50px;
             color: #000;
             border-radius: 5px;
-            backdrop-filter: blur(30px);
+            backdrop-filter: blur(70px);
             border: 2px solid transparent;
             background-clip: padding-box;
             box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.0.3);
             line-height: 1.5;};
 
-     
+           .hairenik p{
 
-    
+                font-size: 60px;
+                margin-bottom: 20px;
+                color: #ffffff;
+            
+            }
+            
+            p{
+            
+                font-size: 16px;
+                margin-bottom: 10px;
+                color: #ffffff;
+            }
+
+     
+           
+            
   
    
     
@@ -86,40 +105,74 @@ svg { margin-left: 50%;}
 
  @media screen and (max-width:450px) {
 
-    .glass{width: 330px;
+    .glass{
+        margin-top: 120px;
+        width: 330px;
             height: 100%;
             background-color: rgba(255, 255, 255, 0.1);
             padding: 50px;
             color: #000;
             border-radius: 5px;
-            backdrop-filter: blur(30px);
+            backdrop-filter: blur(70px);
             border: 2px solid transparent;
             background-clip: padding-box;
             box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.0.3);
             line-height: 1.5;};
 
-   
-  
+           .hairenik p{
+
+                font-size: 60px;
+                margin-bottom: 20px;
+                color: #ffffff;
+            
+            }
+            
+            p{
+            
+                font-size: 16px;
+                margin-bottom: 10px;
+                color: #ffffff;
+            }
+
+             
+            
    
     
  }
 
  @media screen and (max-width:250px) {
 
-    .glass{width: 330px;
+    .glass{
+        margin-top: 120px;
+        width: 330px;
             height: 100%;
             background-color: rgba(255, 255, 255, 0.1);
             padding: 50px;
             color: #000;
             border-radius: 5px;
-            backdrop-filter: blur(30px);
+            backdrop-filter: blur(70px);
             border: 2px solid transparent;
             background-clip: padding-box;
             box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.0.3);
             line-height: 1.5;};
 
+            .hairenik p{
+
+                font-size: 60px;
+                margin-bottom: 20px;
+                color: #ffffff;
+            
+            }
+            
+            p{
+            
+                font-size: 16px;
+                margin-bottom: 10px;
+                color: #ffffff;
+            }
+
    
-  
+             
    
     
  }
