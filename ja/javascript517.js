@@ -183,46 +183,57 @@ var a0 = document.getElementById('a0');
   if(tiempoDeVideo > 144) {
     a12.style.color = 'black';
   } 
-/*
+ 
 
- if(tiempoDeVideo > 104) {
-    a13.style.color = 'black';           //7
-   a14.style.color = '#005caa'; //naranja
+ if(tiempoDeVideo > 3) {
+    a0.style.color = 'grey';      
   } 
 
   
 
-  if(tiempoDeVideo > 108) {
-    a14.style.color = 'black';
-    a15.style.color = '#f37736'; 
+  if(tiempoDeVideo > 13) {
+    a0.style.color = 'white';
+   
    
   } 
 
-
-  if(tiempoDeVideo > 113) {
-    a15.style.color = 'black';
-    a13.style.color = '#f37736';
+ 
+  if(tiempoDeVideo > 28) {
+    a13.style.color = 'black';
+    a14.style.color = 'grey';
+    a15.style.color = 'grey';
   }
 
 
     
-      if(tiempoDeVideo > 116) {
-    a13.style.color = 'black';
-    a14.style.color = '#c51130';}
-
-
-
-      if(tiempoDeVideo > 120) {
+      if(tiempoDeVideo > 49.5) {
+    a13.style.color = 'grey';
     a14.style.color = 'black';
-    a15.style.color = '#005caa';}
+    a15.style.color = 'grey';
+  }
+
+  if(tiempoDeVideo > 65) {
+    a13.style.color = 'grey';
+    a14.style.color = 'grey';
+    a15.style.color = 'grey';
+  }
 
 
-
-      if(tiempoDeVideo > 126) {
+      if(tiempoDeVideo > 119.5) {
+    a13.style.color = 'grey';
+    a14.style.color = 'grey';
     a15.style.color = 'black';
-                              }
+  }
 
 
+
+      if(tiempoDeVideo > 144) {
+    a13.style.color = 'black';
+    a14.style.color = 'black';
+    a15.style.color = 'black';
+  }
+
+/*
     
 
       if(tiempoDeVideo > 145) {
