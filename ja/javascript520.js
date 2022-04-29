@@ -178,16 +178,20 @@ var a0 = document.getElementById('a0');
 
  
 
-  if(tiempoDeVideo > 113) {
+  if(tiempoDeVideo > 112) {
     a8.style.color = 'black';
  
    
   } 
+
+  if(tiempoDeVideo > 112) {
+    a9.style.textDecoration = 'underline';}
   
 
   if(tiempoDeVideo > 123) {
           
     a9.style.color = '#c51130';
+    a9.style.textDecoration = 'none';
   } 
 
   if(tiempoDeVideo > 126) {
@@ -288,16 +292,20 @@ var a0 = document.getElementById('a0');
   }
  
 
-   if(tiempoDeVideo > 175) {
+   if(tiempoDeVideo > 172.5) {
     a16.style.color = 'black';
     }
 
 
-    
+    if(tiempoDeVideo > 172.5) {
+      a17.style.textDecoration = 'underline';
+      }
 
       if(tiempoDeVideo > 195) {
     
-    a17.style.color = '#f37736';}
+    a17.style.color = '#f37736';
+    a17.style.textDecoration = 'none';
+  }
 
 
 
