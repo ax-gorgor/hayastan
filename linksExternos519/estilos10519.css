@@ -1,0 +1,101 @@
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+
+width: 100%;
+height: 100%;
+font-family: 'Poppins';
+padding: 2em 1.5em;
+background: url(fotos/karekinNzhtehMetro2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: 100% 20%;
+
+}
+
+.imagenSize{width: 330px;}
+
+.glass{
+
+        width: 330px;
+        height: 100%;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 50px;
+        color: #000;
+        border-radius: 5px;
+        backdrop-filter: blur(20px);
+        border: 2px solid transparent;
+        background-clip: padding-box;
+        box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.0.3);
+        line-height: 1.5;
+
+}
+
+h2{
+
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+p{
+
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.container .sarda {width: 2%;};
+
+svg { margin-left: 50%;}
+
+/*----------------------------------------------------------*/
+/*----------------------------------------------------------*/
+
+@media screen and (max-width:567px) {
+
+    .glass{width: 330px;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 50px;
+            color: #000;
+            border-radius: 5px;
+            backdrop-filter: blur(30px);
+            border: 2px solid transparent;
+            background-clip: padding-box;
+            box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.0.3);
+            line-height: 1.5;};
+
+     
+
+    
+  
+   
+    
+ }
+
+ @media screen and (max-width:450px) {
+
+    .glass{width: 330px;
+            height: 100%;
+            background-color: rgba(255, 255, 255, 0.1);
+            padding: 50px;
+            color: #000;
+            border-radius: 5px;
+            backdrop-filter: blur(30px);
+            border: 2px solid transparent;
+            background-clip: padding-box;
+            box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.0.3);
+            line-height: 1.5;};
+
+   
+  
+   
+    
+ }
+
