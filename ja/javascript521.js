@@ -1,4 +1,3 @@
-
 var tag = document.createElement('script');
 
 tag.src = "https://www.youtube.com/iframe_api";
@@ -9,18 +8,9 @@ tag.src = "https://www.youtube.com/iframe_api";
 var player;
 function onYouTubeIframeAPIReady() {
    player = new YT.Player('player', {
-     height: '371',
-     width: '660',
+     height: '100%',
+     width: '48%',
      videoId: 'cU00d7Je0a8',
-     playerVars: { 
-			
-               'showinfo': 0,
-               'rel':0,
-                'fs':0
-},
-
-
-
      
      events: {
        'onStateChange': onPlayerStateChange
@@ -236,11 +226,13 @@ function onYouTubeIframeAPIReady() {
 
   if(tiempoDeVideo > 167) {
     a24.style.color = 'black';
+    a25.style.textDecoration = 'underline';
      
   } 
 
   if(tiempoDeVideo > 176) {
     a24.style.color = 'black';
+    a25.style.textDecoration = 'none';
     a25.style.color = '#ed2939'; //naranja //3
   } 
  
