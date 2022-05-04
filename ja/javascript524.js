@@ -43,6 +43,11 @@ function onYouTubeIframeAPIReady() {
  var a6 = document.getElementById('a6');
  var a7 = document.getElementById('a7');
  var a8 = document.getElementById('a8');
+ var a9 = document.getElementById('a9');
+ var a10 = document.getElementById('a10');
+ var a11 = document.getElementById('a11');
+ var a12 = document.getElementById('a12');
+  
   
  
  function colorText() {
@@ -50,75 +55,127 @@ function onYouTubeIframeAPIReady() {
 
   var tiempoDeVideo = player.getCurrentTime();
 
-  if(tiempoDeVideo > 0) {
-    a0.style.color = 'white'; //rojo    //1
-  } 
-
-  if(tiempoDeVideo > 3) {
-    a0.style.color = 'grey'; //rojo    //1
-  } 
-
-  if(tiempoDeVideo > 8 ) {
-    a0.style.color = 'white'; //rojo    //1
-  } 
-
+ 
   
   
-  if(tiempoDeVideo > 8) {
+  if(tiempoDeVideo > 26) {
     a1.style.color = '#ed2939'; //rojo    //1
   } 
-  if(tiempoDeVideo > 12) {
+  if(tiempoDeVideo > 32) {
     a1.style.color = 'black';
-    a2.style.color = '#ed2939'; //azul //2
+    a2.style.color = '#005caa'; //azul //2 
   } 
-  if(tiempoDeVideo > 17) {
+  if(tiempoDeVideo > 36) {
     a2.style.color = 'black';
-   a3.style.color = '#ed2939'; //naranja //3
+   a3.style.color = '#f37736'; //naranja
   } 
 
-   if(tiempoDeVideo > 22) {
+   if(tiempoDeVideo > 39.5) {
     a3.style.color = 'black';           //4
     a4.style.color = '#ed2939';
    } 
 
-   if(tiempoDeVideo > 27) {
+   if(tiempoDeVideo > 41.5) {
     a4.style.color = 'black';           //5
-    a5.style.color = '#ed2939';
+    a5.style.color = '#005caa';
    } 
 
-  if(tiempoDeVideo > 32) {
+  if(tiempoDeVideo > 46) {
     a5.style.color = 'black';           //6
-    a6.style.color = '#ed2939';
+    a6.style.color = '#f37736';
   } 
 
-  if(tiempoDeVideo > 37) {
+  if(tiempoDeVideo > 48.5) {
     a6.style.color = 'black';           //7
-   a7.style.color = '#ed2939'; //naranja
+   a3.style.color = '#ed2939'; //naranja
   } 
 
-   if(tiempoDeVideo > 42) {
-    a7.style.color = 'black';           //3
-    a8.style.color = '#ed2939';
+   if(tiempoDeVideo > 52.5) {
+    a3.style.color = 'black';           //3
+    a4.style.color = '#005caa';
    } 
  
 
-  if(tiempoDeVideo > 47) {
-    a8.style.color = 'black';           //6
-    a7.style.color = '#ed2939';
+  if(tiempoDeVideo > 54.5) {
+    a4.style.color = 'black';           //6
+    a5.style.color = '#f37736';
   } 
 
-  if(tiempoDeVideo > 52) {
-    a7.style.color = 'black';           //7
-    a8.style.color = '#ed2939';
+  if(tiempoDeVideo > 59) {
+    a5.style.color = 'black';           //7
+    a6.style.color = '#ed2939';
   } 
 
-  if(tiempoDeVideo > 58) {
+  if(tiempoDeVideo > 63) {
+    a6.style.color = 'black';           //4
+    
+   } 
+
+// ----------------------------------------------------------------/
+
+if(tiempoDeVideo > 63) {
+    a7.style.textDecoration = 'underline';
+  } 
+
+   
+  if(tiempoDeVideo > 86) {
+    a7.style.color = '#ed2939'; //azul //2
+    a7.style.textDecoration = 'none';
+  } 
+
+  if(tiempoDeVideo > 92) {
+    a7.style.color = 'black';
+    a8.style.color = '#005caa'; //naranja //3
+  } 
+
+   if(tiempoDeVideo > 97.5) {
     a8.style.color = 'black';           //4
+    a9.style.color = '#f37736';
+   } 
+
+   if(tiempoDeVideo > 100.5) {
+    a9.style.color = 'black';           //5
+    a10.style.color = '#ed2939';
+   } 
+
+  if(tiempoDeVideo > 102.5) {
+    a10.style.color = 'black';           //6
+    a11.style.color = '#005caa';
+  } 
+
+  if(tiempoDeVideo > 107.5) {
+    a11.style.color = 'black';           //7
+    a12.style.color = '#f37736'; //naranja
+  } 
+
+   if(tiempoDeVideo > 110) {
+    a12.style.color = 'black';           //3
+    a9.style.color = '#ed2939';
+   } 
+ 
+
+  if(tiempoDeVideo > 112.5) {
+    a9.style.color = 'black';           //6
+    a10.style.color = '#005caa';
+  } 
+
+  if(tiempoDeVideo > 115) {
+    a10.style.color = 'black';           //7
+    a11.style.color = '#f37736';
+  } 
+
+    if(tiempoDeVideo > 120) {
+    a11.style.color = 'black';           //7
+    a12.style.color = '#ed2939';
+  } 
+
+  if(tiempoDeVideo > 128) {
+    a12.style.color = 'black';           //4
     
    } 
 
 
-
+ 
   
 
 
