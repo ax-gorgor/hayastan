@@ -1,169 +1,215 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
-*
-{margin: 0;
- padding: 0;
- box-sizing: border-box;
- font-family: "Poppins", sans-serif;}
 
- .block{
-   display: flex; flex-wrap: nowrap;
-
- }
-
- .cantantes{
-   position: absolute;
-   background: rgb(255, 255, 255);
-   padding: 2%;
-   width: 50%;
-   height: 1%;
-   margin-top: 20px;
-
- 
-  z-index: 100000;
-
-}
-
-h4{ color:#fff}
-
-
- 
-
- .cantantes h5 a{
-    
-
-   color: black;
-
+  @import url("https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+  *
+  {margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Poppins", sans-serif;}
+  
+   .block{
+     display: flex; flex-wrap: nowrap;
+  
    }
- 
- a:link{
-
-   text-decoration: none;
-
- }
- 
- h5 a:hover{
-
-   color: rgb(92, 92, 92); transition: 0.3s;
- }
-
-.www{
+  
+   .cantantes{
+     position: absolute;
+     background: rgb(255, 255, 255);
+     padding: 2%;
+     width: 50%;
+     height: 1%;
+     margin-top: 20px;
+  
    
-   color:rgb(59, 59, 59)
-
-}
-
-  .container1{  display: flex; justify-content:left; z-index: 100;}
-
-  .container2{position: fixed; z-index: 1000; }
-
-  .claseyoutube{width: 560px; height: 315px;}
-
-  .autores{ 
-    position:absolute;
-    width: 660px;
-    color: #fff; background: rgb(0, 0, 0);
-    height: 50px;
-    padding: 5px 7px;margin-top: 0%;
-    margin-left:  0%; z-index: 2000;
-     font-size: 18px;}
-
-   .compositores{
-    margin-left: 2%;
-    margin-top: 1%;
+    z-index: 100000;
+  
+  }
+  
+  h4{ color:#fff}
+  
    
-   }
-
-   .bold{font-weight: bold;}
-
- .boxtitulocancion{display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-   justify-content: space-between;
-   width: 660px;
-   height: 80px;
-   padding: 10px 10px; 
-   margin-top: 8%;
-   
-
-   margin-left: 0px; color: rgb(250, 250, 250);
-   z-index: 20; background: rgb(83, 83, 83);}
-
-.nombredeltema {
-    
-   padding: 5px 5px;
-
-}
-
- 
-
- 
-
-.hayeren{position: fixed; margin-top: 36.5%;
-               font-size: 30px;
-                    padding: 5px; width: 660px;
-                     height: 80px; background: rgb(0, 0, 0);
-                  color: rgb(175, 175, 175);}
-
-
-
-.volver{  color:#fff; padding-top: 18px; margin-right: 25px; }
-
-
-
-.videodeyoutoube{position: relative;  margin-top: 0; margin-left: 0px;}
-
-.letracancion{position: absolute; margin-top:10px; font-size: 22px;
-    
-    margin-left:51%; padding: 5px 5px; z-index: 10;}
-
-
-    .player{position: fixed; z-index: 10000;}
-
-
-    .tituloDelFondo{
-
-      margin-top: 10px;
-       
-     
-
-    }
-
-    .hayeren2 {
+  
+   .cantantes h5 a{
       
-      padding: 10px;
-      border-radius: 10px;
-      background: rgb(83, 83, 83);
-      color: rgb(250, 250, 250);
-      margin-top: 15px;
-
-    }
-
-
+  
+     color: black;
+  
+     }
+   
+   a:link{
+  
+     text-decoration: none;
+  
+   }
+   
+   h5 a:hover{
+  
+     color: rgb(92, 92, 92); transition: 0.3s;
+   }
+  
+  .www{
      
-    @media screen and (max-width:450px) {
+     color:rgb(59, 59, 59)
+  
+  }
+  
+    .container1{  display: flex; justify-content:left; z-index: 100;}
+  
+    .container2{position: fixed; z-index: 1000; }
+  
+    .claseyoutube{width: 560px; height: 315px;}
+  
+    .autores{ 
+      position:absolute;
+      width: 660px;
+      color: #fff; background: rgb(0, 0, 0);
+      height: 50px;
+      padding: 5px 7px;margin-top: 0%;
+      margin-left:  0%; z-index: 2000;
+       font-size: 18px;}
+  
+     .compositores{
+      margin-left: 2%;
+      margin-top: 1%;
+     
+     }
+  
+     .bold{font-weight: bold;}
+  
+   .boxtitulocancion{display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+     justify-content: space-between;
+     width: 660px;
+     height: 100px;
+     padding: 10px 10px; 
+     margin-top: 8%;
+     
+  
+     margin-left: 0px; color: rgb(250, 250, 250);
+     z-index: 20; background: rgb(83, 83, 83);}
+  
+  .nombredeltema {
+      
+     padding: 5px 5px;
+  
+  }
+  
+   
+  
+   
+  
+  .hayeren{position: fixed; margin-top: 36.5%;
+                 font-size: 30px;
+                      padding: 5px; width: 660px;
+                       height: 80px; background: rgb(0, 0, 0);
+                    color: rgb(175, 175, 175);}
+  
+  
+  
+  .volver{  color:#fff; padding-top: 18px; margin-right: 25px; }
+  
+  
+  
+  .videodeyoutoube{position: relative;  margin-top: 0; margin-left: 0px;}
+  
+  .letracancion{position: absolute; margin-top:10px; font-size: 22px;
+      
+      margin-left:52%; padding: 5px 5px; z-index: 10;}
+  
+  
+      .player{
+        
+        width: 50%;
+        height: 100%;
+        position: fixed; 
+        z-index: 10000;}
+  
+  
+      .tituloDelFondo{
+  
+        margin-top: 0px;
+         
+       
+  
+      }
+  
+      .hayeren2 {
+        
+        padding: 10px;
+        border-radius: 10px;
+        background: rgb(83, 83, 83);
+        color: rgb(250, 250, 250);
+        margin-top: 15px;
+  
+      }
+  
+      
+  
+     h5 {
+        color: #000;
+        white-space: nowrap;
+  
+     }
+  
+     svg{margin-left: 90%;}
+  
+     .negroBold{ color: #000; font-size: 24px;
+                  
+                 }
+     .linksExt{margin-top: -40px;}
+  
+  
+  
+     .linksExt{text-decoration: underline;}
+  
+     .linkVersiones{
+  
+        text-decoration: none;
+        color:#000;
+        font-size: 22px;
+       }
+  
+       .italica{font-weight: bold;
+        color: rgb(75, 75, 75);}
+  
+     /* parte responsive----------------------------------------------------------------
+     -----------------------------------------------------------------------------------
+     -----------------------------------------------------------------------------------
+     */
+  
+  
+      
+     @media screen and (max-width:767px) {
+  
+      .container1{width: 100%;}
+  
+      h3 { margin-top: 20%;}
     
       h1 { margin-top: -30px;}
-
+  
       .hayeren{display: none;}
     
       .nombredeltema{
-
+  
       padding: 5px 0px;
       font-size: 16px;
-      margin-top: 24px;
-      margin-left: 1%;
+      margin-top: 18px;
+      margin-left: 2%;
+      
    }
    
       section .boxtitulocancion   {
-
+  
       width: 100%;
-      height: 80px;
+      height: 100px;
       margin-top: 10%;
+  
+      
       z-index: 200000;
       
       }
-
+  
       section .boxtitulocancion .volver   {  
          margin-right: 38%;
    }
@@ -172,135 +218,524 @@ h4{ color:#fff}
        overflow: hidden;
        white-space:  wrap;
         font-size: 18px;
-        margin-left: 2%;
-        margin-top: 120%;
+        margin-left: 0%;
+        margin-top: 42%;
       }
-
+  
    .autores{
-       width: 100%;
+    width: 90%;
        height: 32px;
        font-size: 14px;
-       margin-top: -15px;
+       margin-top:  0px;
+       margin-left: 0;
+       color: black;
+       background: white;
+       
        
        }
-
+  
    .compositores {margin-top: 2px;}
    
-   .player{
-       width: 100%;
-       }
-
+   
+  
        .nombredeltema h2 {
-
+  
          margin-top: -20%;
          font-size: 18px;
       
        }
-
+  
        .volver {
-
+  
          margin-right: 50%;
    
       }
+  
+       
+      .traduccion{ margin-top: -40px ;}
+  
+      .tituloDelFondo{ margin-top: -30px ;}
+              
+       .volver {width: 100%;
+        height: 10px;}
+        
+       
+  
+  
+  
+  
+      .volver svg { margin-left: 80%;  }
+  
+      .player{height: 50%;
+      width: 100%;}
           
                  
     }
-                    
-       
+  
+  
+    @media screen and (max-width:696px) {
+  
+      .container1{width: 100%;}
+  
+      h3 { margin-top: 20%;}
     
-    
-    
-    @media screen and (max-width:360px) {
-
-      .enarmenio{
-
-         
-         margin-bottom: 00px;
-         width: 100%;
-         height: 10%;
-         background : rgb(156, 57, 57);
-          
-
-
-      }
-       
-      
       h1 { margin-top: -30px;}
-
-      
-      
+  
+      .hayeren{display: none;}
     
       .nombredeltema{
-
+  
       padding: 5px 0px;
       font-size: 16px;
-      margin-top: 24px;
-      margin-left: 1%;
+      margin-top: 18px;
+      margin-left: 2%;
+      
    }
    
       section .boxtitulocancion   {
-
+  
       width: 100%;
-      height: 80px;
+      height: 100px;
       margin-top: 10%;
+  
+      
       z-index: 200000;
       
       }
-
+  
       section .boxtitulocancion .volver   {  
-         margin-right: 40%;
+         margin-right: 38%;
    }
    .letracancion{
-       
        width: 100%;
        overflow: hidden;
-       white-space:normal ; 
-       font-size: 18px;
-        margin-left: 2%;
-        margin-top: 140%;
-    
+       white-space:  wrap;
+        font-size: 18px;
+        margin-left: 0%;
+        margin-top: 50%;
       }
-
   
-
    .autores{
-       width: 100%;
+    width: 90%;
        height: 32px;
        font-size: 14px;
-       margin-top: -15px;
-        
-       padding: 5px ;
+       margin-top:  0px;
+       margin-left: 0;
+       color: black;
+       background: white;
+       
        
        }
-
-   .compositores {
-       
-    margin-top: 2px;
-    margin-left: 2%;
-}
-
-   .player{
-       width: 100%;
-      
-       }
-
+  
+   .compositores {margin-top: 2px;}
+   
+   
+  
        .nombredeltema h2 {
-
+  
          margin-top: -20%;
          font-size: 18px;
       
        }
-
-   .volver {
-
-      margin-right: 50%;
-
-   }
-
-
+  
+       .volver {
+  
+         margin-right: 50%;
    
+      }
+  
+      .traduccion{ margin-top: -40px ;}
+  
+      .tituloDelFondo{ margin-top: -30px ;}
+  
+      .player{height: 40%;
+              width: 100%;}
+  
+              
+       .volver {width: 100%;
+        height: 10px;}
+        
+       
+  
+  
+  
+  
+      .volver svg { margin-left: 80%;  }
+  
+      .player{height: 50%;
+      width: 100%;}
+          
                  
     }
+  
+    @media screen and (max-width:596px) {
+  
+      .container1{width: 100%;}
+  
+      h3 { margin-top: 20%;}
     
+      h1 { margin-top: -30px;}
+  
+      .hayeren{display: none;}
+    
+      .nombredeltema{
+  
+      padding: 5px 0px;
+      font-size: 16px;
+      margin-top: 18px;
+      margin-left: 2%;
+      
+   }
+   
+      section .boxtitulocancion   {
+  
+      width: 100%;
+      height: 100px;
+      margin-top: 10%;
+  
+      
+      z-index: 200000;
+      
+      }
+  
+      section .boxtitulocancion .volver   {  
+         margin-right: 38%;
+   }
+   .letracancion{
+       width: 100%;
+       overflow: hidden;
+       white-space:  wrap;
+        font-size: 18px;
+        margin-left: 0%;
+        margin-top: 60%;
+      }
+  
+   .autores{
+    width: 90%;
+       height: 32px;
+       font-size: 14px;
+       margin-top:  0px;
+       margin-left: 0;
+       color: black;
+       background: white;
+       
+       
+       }
+  
+   .compositores {margin-top: 2px;}
+   
+    
+  
+       .nombredeltema h2 {
+  
+         margin-top: -20%;
+         font-size: 18px;
+      
+       }
+  
+       .volver {
+  
+         margin-right: 50%;
+   
+      }
+  
+       
+              
+       .volver {width: 100%;
+        height: 10px;}
+        
+       
+        .traduccion{ margin-top: -40px ;}
+  
+        .tituloDelFondo{ margin-top: -30px ;}
+  
+  
+  
+      .volver svg { margin-left: 80%;  }
+  
+      .player{height: 50%;
+      width: 100%;}
+          
+                 
+    }
+  
+  
+    @media screen and (max-width:526px) {
+  
+      .container1{width: 100%;}
+  
+      h3 { margin-top: 20%;}
+    
+      h1 { margin-top: -30px;}
+  
+      .hayeren{display: none;}
+    
+      .nombredeltema{
+  
+      padding: 5px 0px;
+      font-size: 16px;
+      margin-top: 18px;
+      margin-left: 2%;
+      
+   }
+   
+      section .boxtitulocancion   {
+  
+      width: 100%;
+      height: 100px;
+      margin-top: 10%;
+  
+      
+      z-index: 200000;
+      
+      }
+  
+      section .boxtitulocancion .volver   {  
+         margin-right: 38%;
+   }
+   .letracancion{
+       width: 100%;
+       overflow: hidden;
+       white-space:  wrap;
+        font-size: 18px;
+        margin-left: 0%;
+        margin-top: 70%;
+      }
+  
+   .autores{
+    width: 90%;
+       height: 32px;
+       font-size: 14px;
+       margin-top:  0px;
+       margin-left: 0;
+       color: black;
+       background: white;
+       
+       
+       }
+  
+   .compositores {margin-top: 2px;}
+   
+    
+  
+       .nombredeltema h2 {
+  
+         margin-top: -20%;
+         font-size: 18px;
+      
+       }
+  
+       .volver {
+  
+         margin-right: 50%;
+   
+      }
+  
+      .traduccion{ margin-top: -40px ;} 
+  
+      .tituloDelFondo{ margin-top: -30px ;}
+  
+              
+       .volver {width: 100%;
+        height: 10px;}
+        
+       
+  
+  
+  
+  
+      .volver svg { margin-left: 80%;  }
+  
+      .player{height: 50%;
+      width: 100%;}
+          
+                 
+    }
+  
+  
+  
+  
+       @media screen and (max-width:450px) {
+  
+        .container1{width: 100%;}
+  
+        h3 { margin-top: 20%;}
+      
+        h1 { margin-top: -30px;}
+  
+        .hayeren{display: none;}
+      
+        .nombredeltema{
+  
+        padding: 5px 0px;
+        font-size: 16px;
+        margin-top: 18px;
+        margin-left: 1%;
+        
+     }
+     
+        section .boxtitulocancion   {
+  
+        width: 100%;
+        height: 100px;
+        margin-top: 10%;
+  
+        
+        z-index: 200000;
+        
+        }
+  
+        section .boxtitulocancion .volver   {  
+           margin-right: 38%;
+     }
+     .letracancion{
+         width: 100%;
+         overflow: hidden;
+         white-space:  wrap;
+          font-size: 18px;
+          margin-left: 0%;
+          margin-top: 85%;
+        }
+  
+     .autores{
+      width: 90%;
+         height: 32px;
+         font-size: 14px;
+         margin-top:  0px;
+         margin-left: 0;
+         color: black;
+         background: white;
+         
+         
+         }
+  
+     .compositores {margin-top: 2px;}
      
      
+  
+         .nombredeltema h2 {
+  
+           margin-top: -20%;
+           font-size: 18px;
+        
+         }
+  
+         .volver {
+  
+           margin-right: 50%;
+     
+        }
+  
+        
+        .traduccion{ margin-top: -40px ;}
+  
+        .tituloDelFondo{ margin-top: -30px ;}
+                
+         .volver {width: 100%;
+          height: 10px;}
+          
+         
+    
+  
+   
+  
+        .volver svg { margin-left: 80%;  }
+  
+        .player{height: 50%;
+        width: 100%;}
+            
+                   
+      }
+                      
+         
+      
+      
+      
+      @media screen and (max-width:360px) {
+  
+        .container1{width: 100%;}
+  
+        h3 { margin-top: 20%;}
+      
+        h1 { margin-top: -30px;}
+  
+        .hayeren{display: none;}
+      
+        .nombredeltema{
+  
+        padding: 5px 0px;
+        font-size: 16px;
+        margin-top: 18px;
+        margin-left: 1%;
+        
+     }
+     
+        section .boxtitulocancion   {
+  
+        width: 100%;
+        height: 100px;
+        margin-top: 10%;
+  
+        
+        z-index: 200000;
+        
+        }
+  
+        section .boxtitulocancion .volver   {  
+           margin-right: 38%;
+     }
+     .letracancion{
+         width: 100%;
+         overflow: hidden;
+         white-space:  wrap;
+          font-size: 18px;
+          margin-left: 0%;
+          margin-top: 95%;
+        }
+  
+     .autores{
+      width: 90%;
+         height: 32px;
+         font-size: 14px;
+         margin-top:  0px;
+         margin-left: 0;
+         color: black;
+         background: white;
+         
+         
+         }
+  
+     .compositores {margin-top: 2px;}
+     
+     
+         .nombredeltema h2 {
+  
+           margin-top: -20%;
+           font-size: 18px;
+        
+         }
+  
+         .volver {width: 100%;
+                  height: 10px;
+                  
+                 
+            
+     
+        }
+  
+        .traduccion{ margin-top: -40px ;}
+  
+        .tituloDelFondo{ margin-top: -30px ;}
+  
+        .volver svg { margin-left: 80%;  }
+  
+        .player{height: 50%;
+                width: 100%;}
+            
+                   
+      }
+                      
+         
+      
+      
+      
