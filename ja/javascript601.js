@@ -1,3 +1,4 @@
+
 var tag = document.createElement('script');
 
 tag.src = "https://www.youtube.com/iframe_api";
@@ -77,11 +78,18 @@ function onYouTubeIframeAPIReady() {
 
   var tiempoDeVideo = player.getCurrentTime();
 
- 
+  if(tiempoDeVideo > 3) {
+    a0.style.color = 'grey';
+     } 
+
+     if(tiempoDeVideo > 22) {
+      a0.style.color = 'white';
+       } 
  
   if(tiempoDeVideo > 28) {
     a1.style.color = '#f37736';
-    a1.style.fontSize = '115%'; //rojo    //1
+    a1.style.fontSize = '115%'; 
+    a22.style.color = 'lightgrey';
   } 
 
   if(tiempoDeVideo > 49) {
@@ -126,13 +134,14 @@ function onYouTubeIframeAPIReady() {
     a4.style.color = 'black';           //4
     a5.style.textDecoration = 'underline';
     a4.style.fontSize = '100%'; 
+    a22.style.color = 'black'; 
    } 
  
    if(tiempoDeVideo > 132) {
     a5.style.color = '#f37736';   
      a5.style.textDecoration = 'none';  
      a5.style.fontSize = '115%';       //4
-    
+     a21.style.color = 'lightgrey';
    } 
 
   if(tiempoDeVideo > 151.5) {
@@ -178,8 +187,16 @@ function onYouTubeIframeAPIReady() {
     a8.style.color = 'black';           //6
     
     a8.style.fontSize = '100%'; 
-    
+     
   } 
+
+  if(tiempoDeVideo > 226) {
+     
+    a21.style.color = 'black'; 
+  } 
+
+
+
 /*
   if(tiempoDeVideo > 76) { //////////////////////////////////////////////////////////////////////
     a13.style.color = 'black';           //7
