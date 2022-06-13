@@ -87,7 +87,7 @@
      
    
        if(tiempoDeVideo > 0) {
-        image1.style.width = '3.5%';
+        image1.style.width = '4%';
         image1.style.marginRight = '1%';
         image1.style.borderRadius = '50%';
         } 
@@ -97,7 +97,7 @@
         image1.style.width = '0%';
         image1.style.marginRight = '0%';
         image1.style.borderRadius = '0%';
-        image2.style.width = '3.5%';
+        image2.style.width = '4%';
         image2.style.marginRight = '1%';
         image2.style.borderRadius = '50%';
         
@@ -107,7 +107,7 @@
         image2.style.width = '0%';
         image2.style.marginRight = '0%';
         image2.style.borderRadius = '0%';
-        image3.style.width = '3.5%';
+        image3.style.width = '4%';
         image3.style.marginRight = '1%';
         image3.style.borderRadius = '50%';
         
@@ -117,7 +117,7 @@
         image3.style.width = '0%';
         image3.style.marginRight = '0%';
         image3.style.borderRadius = '0%';
-        image4.style.width = '3.5%';
+        image4.style.width = '4%';
         image4.style.marginRight = '1%';
         image4.style.borderRadius = '50%';
        
