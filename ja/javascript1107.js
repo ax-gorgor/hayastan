@@ -85,14 +85,14 @@ function onYouTubeIframeAPIReady() {
   var tiempoDeVideo = player.getCurrentTime();
 
   if(tiempoDeVideo > 2) {
-  //  a0.style.color = 'grey';
+        a0.style.color = 'grey';
         image10.style.width = '4%';
         image10.style.marginRight = '1%';
         image10.style.borderRadius = '50%';
      }
 
-     if(tiempoDeVideo > 36) {
-     //   a0.style.color = 'white';
+     if(tiempoDeVideo > 30) {
+      a0.style.color = 'white';
          } 
  
  if(tiempoDeVideo > 34.5) {
@@ -315,49 +315,52 @@ if(tiempoDeVideo > 183) {
      
    
  
-/*
  
-if(tiempoDeVideo > 47) {
-a17.style.color = 'black';           //3
-a18.style.color = 'lightgrey';
-a19.style.color = 'lightgrey'; 
-a20.style.color = 'lightgrey'; 
-} 
  
-
-if(tiempoDeVideo > 68.5) {
-a17.style.color = 'lightgrey';           //6
-a18.style.color = 'black';
-a19.style.color = 'lightgrey'; 
-a20.style.color = 'lightgrey'; 
+if(tiempoDeVideo > 34.5) {
+a26.style.color = 'black';           //3
+a27.style.color = 'lightgrey';
+a28.style.color = 'lightgrey'; 
 
 } 
  
-if(tiempoDeVideo > 93) {
-a17.style.color = 'lightgrey';           //6
-a18.style.color = 'lightgrey';
-a19.style.color = 'black'; 
-a20.style.color = 'lightgrey'; 
+
+if(tiempoDeVideo > 55) {
+a26.style.color = 'lightgrey';           //6
+a27.style.color = 'black';
+a28.style.color = 'lightgrey'; 
+ 
+
 } 
 
-if(tiempoDeVideo > 118) {
-    a17.style.color = 'lightgrey';           //6
-    a18.style.color = 'lightgrey';
-    a19.style.color = 'lightgrey'; 
-    a20.style.color = 'lightgrey'; 
-    a21.style.textDecoration = 'underline';
+
+if(tiempoDeVideo > 85.5) {
+  a26.style.color = 'lightgrey';           //6
+  a27.style.color = 'lightgrey';
+  a28.style.color = 'lightgrey'; 
+  
+  //a21.style.textDecoration = 'underline';
+  } 
+ 
+if(tiempoDeVideo > 108.5) {
+a26.style.color = 'lightgrey';           //6
+a27.style.color = 'lightgrey';
+a28.style.color = 'black'; 
+ 
+} 
+
+
+ 
+
+if(tiempoDeVideo > 235) {
+  a26.style.color = 'black';           //6
+a27.style.color = 'black';
+a28.style.color = 'black'; 
+  
     } 
-*/
- 
-/*
 
-if(tiempoDeVideo > 150) {
-    a17.style.color = 'lightgrey';           //3
-    a18.style.color = 'lightgrey';
-    a19.style.color = 'black'; 
-    a20.style.color = 'lightgrey'; 
-    a21.style.textDecoration = 'none';
-    } 
+
+/*
 
     if(tiempoDeVideo > 176) {
         a17.style.color = 'lightgrey';           //3
