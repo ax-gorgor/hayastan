@@ -85,13 +85,13 @@ function onYouTubeIframeAPIReady() {
 
   var tiempoDeVideo = player.getCurrentTime();
 
-  /*if(tiempoDeVideo > 6) {
+   if(tiempoDeVideo > 3) {
     a0.style.color = 'grey';
      }
 
-     if(tiempoDeVideo > 36) {
+     if(tiempoDeVideo > 20) {
         a0.style.color = 'white';
-         }*/
+         } 
  
  if(tiempoDeVideo > 24.5) {
 a1.style.color = '#005858';
@@ -123,7 +123,7 @@ a4.style.fontSize = '115%';
 if(tiempoDeVideo > 65) {
 a4.style.color = 'black';           //7
 a5.style.color = '#005858';
-a4.style.fontSize = '100%';  //naranja
+a4.style.fontSize = '100%'; 
 a5.style.fontSize = '115%'; 
 } 
  
@@ -309,59 +309,92 @@ a23.style.fontSize = '100%';
  
 }
 
-/*
-if(tiempoDeVideo > 47) {
-a17.style.color = 'black';           //3
-a18.style.color = 'lightgrey';
-a19.style.color = 'lightgrey'; 
-a20.style.color = 'lightgrey'; 
+
+if(tiempoDeVideo > 24.5) {
+a24.style.color = 'black';           //3
+a25.style.color = 'lightgrey';
+a26.style.color = 'lightgrey'; 
+a27.style.color = 'lightgrey';
+a28.style.color = 'lightgrey';
+a29.style.color = 'lightgrey';
+//a20.style.color = 'lightgrey'; 
 } 
  
 
-if(tiempoDeVideo > 68.5) {
-a17.style.color = 'lightgrey';           //6
-a18.style.color = 'black';
-a19.style.color = 'lightgrey'; 
-a20.style.color = 'lightgrey'; 
+if(tiempoDeVideo > 65) {
+a24.style.color = 'lightgrey';           //3
+a25.style.color = 'black';
+a26.style.color = 'lightgrey'; 
+a27.style.color = 'lightgrey';
+a28.style.color = 'lightgrey';
+a29.style.color = 'lightgrey';
+//a20.style.color = 'lightgrey';   
 
 } 
- 
-if(tiempoDeVideo > 93) {
-a17.style.color = 'lightgrey';           //6
-a18.style.color = 'lightgrey';
-a19.style.color = 'black'; 
-a20.style.color = 'lightgrey'; 
+  
+if(tiempoDeVideo > 108) {
+a24.style.color = 'lightgrey';           //3
+a25.style.color = 'lightgrey';
+a26.style.color = 'lightgrey'; 
+a27.style.color = 'lightgrey';
+a28.style.color = 'lightgrey';
+a29.style.color = 'lightgrey';
+a30.style.textDecoration = 'underline';
 } 
+ 
 
 if(tiempoDeVideo > 118) {
-    a17.style.color = 'lightgrey';           //6
-    a18.style.color = 'lightgrey';
-    a19.style.color = 'lightgrey'; 
-    a20.style.color = 'lightgrey'; 
-    a21.style.textDecoration = 'underline';
+a24.style.color = 'lightgrey';           //3
+a25.style.color = 'lightgrey';
+a26.style.color = 'black'; 
+a27.style.color = 'lightgrey';
+a28.style.color = 'lightgrey';
+a29.style.color = 'lightgrey';
+a30.style.textDecoration = 'none';
     } 
 
  
 
-if(tiempoDeVideo > 150) {
-    a17.style.color = 'lightgrey';           //3
-    a18.style.color = 'lightgrey';
-    a19.style.color = 'black'; 
-    a20.style.color = 'lightgrey'; 
-    a21.style.textDecoration = 'none';
+if(tiempoDeVideo > 159) {
+    a24.style.color = 'lightgrey';           //3
+a25.style.color = 'lightgrey';
+a26.style.color = 'lightgrey'; 
+a27.style.color = 'black';
+a28.style.color = 'lightgrey';
+a29.style.color = 'lightgrey';
+ 
     } 
-
-    if(tiempoDeVideo > 176) {
-        a17.style.color = 'lightgrey';           //3
-        a18.style.color = 'lightgrey';
-        a19.style.color = 'lightgrey'; 
-        a20.style.color = 'lightgrey'; 
-        a22.style.textDecoration = 'underline';
+ 
+if(tiempoDeVideo > 199) {
+a24.style.color = 'lightgrey';           //3
+a25.style.color = 'lightgrey';
+a26.style.color = 'lightgrey'; 
+a27.style.color = 'lightgrey';
+a28.style.color = 'black';
+a29.style.color = 'lightgrey';
         } 
 
+        if(tiempoDeVideo > 237) {
+            a24.style.color = 'lightgrey';           //3
+            a25.style.color = 'lightgrey';
+            a26.style.color = 'lightgrey'; 
+            a27.style.color = 'lightgrey';
+            a28.style.color = 'lightgrey';
+            a29.style.color = 'black';
+                    } 
 
 
  
+if(tiempoDeVideo > 278) {
+a24.style.color = 'black';           //3
+a25.style.color = 'black';
+a26.style.color = 'black'; 
+a27.style.color = 'black';
+a28.style.color = 'black';
+a29.style.color = 'black';
+        } 
+
+ /*
 
     if(tiempoDeVideo > 210) {
         a17.style.color = 'lightgrey';           //3
