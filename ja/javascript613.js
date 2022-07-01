@@ -529,7 +529,7 @@ function onYouTubeIframeAPIReady() {
           a52.style.color = 'grey';
           a53.style.color = 'grey';
           a54.style.color = 'grey';
-          a55.style.color = 'grey';
+         
            
            
           }
@@ -542,7 +542,7 @@ function onYouTubeIframeAPIReady() {
           a52.style.color = 'grey';
           a53.style.color = 'grey';
           a54.style.color = 'grey';
-          a55.style.color = 'grey';
+         
            
           }
             
@@ -553,7 +553,7 @@ function onYouTubeIframeAPIReady() {
           a52.style.color = 'grey';
           a53.style.color = 'grey';
           a54.style.color = 'grey'; 
-          a55.style.color = 'grey';
+         
           }
           
           if(tiempoDeVideo > 111) {  
@@ -563,7 +563,7 @@ function onYouTubeIframeAPIReady() {
           a52.style.color = 'grey';
           a53.style.color = 'grey';
           a54.style.color = 'grey'; 
-          a55.style.color = 'grey';
+          
           }
           
            
@@ -574,7 +574,7 @@ function onYouTubeIframeAPIReady() {
           a52.style.color = 'black';
           a53.style.color = 'grey';
           a54.style.color = 'grey';
-          a55.style.color = 'grey';
+        
           }
            
           if(tiempoDeVideo > 148) {  
@@ -584,7 +584,7 @@ function onYouTubeIframeAPIReady() {
           a52.style.color = 'grey';
           a53.style.color = 'black';
           a54.style.color = 'grey';
-          a55.style.color = 'grey';
+         
           }
             
           if(tiempoDeVideo > 161) {  
@@ -594,7 +594,7 @@ function onYouTubeIframeAPIReady() {
           a52.style.color = 'grey';
           a53.style.color = 'grey';
           a54.style.color = 'black';
-          a55.style.color = 'grey';
+           
           }
 
           
