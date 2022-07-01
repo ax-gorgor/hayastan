@@ -557,7 +557,7 @@ function onYouTubeIframeAPIReady() {
           a49.style.color = 'grey';
           a50.style.color = 'grey';
           a51.style.color = 'black';
-          a52.style.color = 'black';
+          a52.style.color = 'grey';
           a53.style.color = 'grey';
           a54.style.color = 'grey'; 
           }
