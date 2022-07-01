@@ -597,15 +597,6 @@ function onYouTubeIframeAPIReady() {
           a55.style.color = 'grey';
           }
 
-          if(tiempoDeVideo > 242) {  
-            a49.style.color = 'grey';
-            a50.style.color = 'grey';
-            a51.style.color = 'grey';
-            a52.style.color = 'grey';
-            a53.style.color = 'grey';
-            a54.style.color = 'grey';
-            a55.style.color = 'black';
-            }
           
           if(tiempoDeVideo > 271) {  
           a49.style.color = 'black';
