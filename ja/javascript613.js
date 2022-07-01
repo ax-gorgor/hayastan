@@ -524,11 +524,11 @@ function onYouTubeIframeAPIReady() {
           if(tiempoDeVideo > 73.5) {  
                      
           a49.style.color = 'black';
-          a50.style.color = 'grey';
-          a51.style.color = 'grey';
-          a52.style.color = 'grey';
-          a53.style.color = 'grey';
-          a54.style.color = 'grey';
+          a50.style.color = 'lightgrey';
+          a51.style.color = 'lightgrey';   //1
+          a52.style.color = 'lightgrey';
+          a53.style.color = 'lightgrey';
+          a54.style.color = 'lightgrey';
          
            
            
@@ -536,63 +536,63 @@ function onYouTubeIframeAPIReady() {
           
            
           if(tiempoDeVideo > 86) {  
-          a49.style.color = 'grey';
+          a49.style.color = 'lightgrey';
           a50.style.color = 'black';
-          a51.style.color = 'grey';
-          a52.style.color = 'grey';
-          a53.style.color = 'grey';
-          a54.style.color = 'grey';
+          a51.style.color = 'lightgrey';
+          a52.style.color = 'lightgrey';  //2
+          a53.style.color = 'lightgrey';
+          a54.style.color = 'lightgrey';
          
            
           }
             
           if(tiempoDeVideo > 98) {  
-          a49.style.color = 'grey';
-          a50.style.color = 'grey';
-          a51.style.color = 'black';
-          a52.style.color = 'grey';
-          a53.style.color = 'grey';
-          a54.style.color = 'grey'; 
+          a49.style.color = 'lightgrey';
+          a50.style.color = 'lightgrey';
+          a51.style.color = 'black';  //3
+          a52.style.color = 'lightgrey';
+          a53.style.color = 'lightgrey';
+          a54.style.color = 'lightgrey'; 
          
           }
           
           if(tiempoDeVideo > 111) {  
-          a49.style.color = 'grey';
-          a50.style.color = 'grey';
-          a51.style.color = 'black';
-          a52.style.color = 'grey';
-          a53.style.color = 'grey';
-          a54.style.color = 'grey'; 
+          a49.style.color = 'lightgrey';
+          a50.style.color = 'lightgrey';
+          a51.style.color = 'black';  //4
+          a52.style.color = 'lightgrey';
+          a53.style.color = 'lightgrey';
+          a54.style.color = 'lightgrey'; 
           
           }
           
            
           if(tiempoDeVideo > 125) {  
-          a49.style.color = 'grey';
-          a50.style.color = 'grey';
-          a51.style.color = 'grey';
+          a49.style.color = 'lightgrey';
+          a50.style.color = 'lightgrey';
+          a51.style.color = 'lightgrey';  //5
           a52.style.color = 'black';
-          a53.style.color = 'grey';
-          a54.style.color = 'grey';
+          a53.style.color = 'lightgrey';
+          a54.style.color = 'lightgrey';
         
           }
            
           if(tiempoDeVideo > 148) {  
-          a49.style.color = 'grey';
-          a50.style.color = 'grey';
-          a51.style.color = 'grey';
-          a52.style.color = 'grey';
+          a49.style.color = 'lightgrey';
+          a50.style.color = 'lightgrey';   //6
+          a51.style.color = 'lightgrey';
+          a52.style.color = 'lightgrey';
           a53.style.color = 'black';
-          a54.style.color = 'grey';
+          a54.style.color = 'lightgrey';
          
           }
             
           if(tiempoDeVideo > 161) {  
-          a49.style.color = 'grey';
-          a50.style.color = 'grey';
-          a51.style.color = 'grey';
-          a52.style.color = 'grey';
-          a53.style.color = 'grey';
+          a49.style.color = 'lightgrey';
+          a50.style.color = 'lightgrey';   //7
+          a51.style.color = 'lightgrey';
+          a52.style.color = 'lightgrey';
+          a53.style.color = 'lightgrey';
           a54.style.color = 'black';
            
           }
@@ -601,7 +601,7 @@ function onYouTubeIframeAPIReady() {
           if(tiempoDeVideo > 271) {  
           a49.style.color = 'black';
           a50.style.color = 'black';
-          a51.style.color = 'black';
+          a51.style.color = 'black';   //8
           a52.style.color = 'black';
           a53.style.color = 'black';
           a54.style.color = 'black'; 
