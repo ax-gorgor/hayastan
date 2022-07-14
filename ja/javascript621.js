@@ -1,4 +1,3 @@
-
 var tag = document.createElement('script');
 
 tag.src = "https://www.youtube.com/iframe_api";
@@ -66,307 +65,307 @@ function onYouTubeIframeAPIReady() {
 
   if(tiempoDeVideo > 6) {
     a1.style.color = 'black';  
-    a2.style.color = 'grey';
-    a3.style.color = 'grey';
-    a4.style.color = 'grey';
-    a5.style.color = 'grey';
-    a6.style.color = 'grey';
-    a7.style.color = 'grey';
-    a8.style.color = 'grey';
-    a9.style.color = 'grey';
-    a10.style.color = 'grey';
-    a11.style.color = 'grey';
-    a12.style.color = 'grey';
-    a13.style.color = 'grey';
-    a14.style.color = 'grey';
+    a2.style.color = 'lightgrey';
+    a3.style.color = 'lightgrey';
+    a4.style.color = 'lightgrey';
+    a5.style.color = 'lightgrey';
+    a6.style.color = 'lightgrey';
+    a7.style.color = 'lightgrey';
+    a8.style.color = 'lightgrey';
+    a9.style.color = 'lightgrey';
+    a10.style.color = 'lightgrey';
+    a11.style.color = 'lightgrey';
+    a12.style.color = 'lightgrey';
+    a13.style.color = 'lightgrey';
+    a14.style.color = 'lightgrey';
 
  } 
 
  if(tiempoDeVideo > 16) {
-  a1.style.color = 'grey';  
+  a1.style.color = 'lightgrey';  
   a2.style.color = 'black';
-  a3.style.color = 'grey';
-  a4.style.color = 'grey';
-  a5.style.color = 'grey';
-  a6.style.color = 'grey';
-  a7.style.color = 'grey';
-  a8.style.color = 'grey';
-  a9.style.color = 'grey';
-  a10.style.color = 'grey';
-  a11.style.color = 'grey';
-  a12.style.color = 'grey';
-  a13.style.color = 'grey';
-  a14.style.color = 'grey';
+  a3.style.color = 'lightgrey';
+  a4.style.color = 'lightgrey';
+  a5.style.color = 'lightgrey';
+  a6.style.color = 'lightgrey';
+  a7.style.color = 'lightgrey';
+  a8.style.color = 'lightgrey';
+  a9.style.color = 'lightgrey';
+  a10.style.color = 'lightgrey';
+  a11.style.color = 'lightgrey';
+  a12.style.color = 'lightgrey';
+  a13.style.color = 'lightgrey';
+  a14.style.color = 'lightgrey';
 
 } 
 
 if(tiempoDeVideo > 27) {
-  a1.style.color = 'grey';  
-  a2.style.color = 'grey';
+  a1.style.color = 'lightgrey';  
+  a2.style.color = 'lightgrey';
   a3.style.color = 'black';
-  a4.style.color = 'grey';
-  a5.style.color = 'grey';
-  a6.style.color = 'grey';
-  a7.style.color = 'grey';
-  a8.style.color = 'grey';
-  a9.style.color = 'grey';
-  a10.style.color = 'grey';
-  a11.style.color = 'grey';
-  a12.style.color = 'grey';
-  a13.style.color = 'grey';
-  a14.style.color = 'grey';
+  a4.style.color = 'lightgrey';
+  a5.style.color = 'lightgrey';
+  a6.style.color = 'lightgrey';
+  a7.style.color = 'lightgrey';
+  a8.style.color = 'lightgrey';
+  a9.style.color = 'lightgrey';
+  a10.style.color = 'lightgrey';
+  a11.style.color = 'lightgrey';
+  a12.style.color = 'lightgrey';
+  a13.style.color = 'lightgrey';
+  a14.style.color = 'lightgrey';
 
 } 
 
 if(tiempoDeVideo > 38) {
-  a1.style.color = 'grey';  
-  a2.style.color = 'grey';
-  a3.style.color = 'grey';
+  a1.style.color = 'lightgrey';  
+  a2.style.color = 'lightgrey';
+  a3.style.color = 'lightgrey';
   a4.style.color = 'black';
-  a5.style.color = 'grey';
-  a6.style.color = 'grey';
-  a7.style.color = 'grey';
-  a8.style.color = 'grey';
-  a9.style.color = 'grey';
-  a10.style.color = 'grey';
-  a11.style.color = 'grey';
-  a12.style.color = 'grey';
-  a13.style.color = 'grey';
-  a14.style.color = 'grey';
+  a5.style.color = 'lightgrey';
+  a6.style.color = 'lightgrey';
+  a7.style.color = 'lightgrey';
+  a8.style.color = 'lightgrey';
+  a9.style.color = 'lightgrey';
+  a10.style.color = 'lightgrey';
+  a11.style.color = 'lightgrey';
+  a12.style.color = 'lightgrey';
+  a13.style.color = 'lightgrey';
+  a14.style.color = 'lightgrey';
 
 } 
 
 if(tiempoDeVideo > 48) {
-  a1.style.color = 'grey';  
-  a2.style.color = 'grey';
-  a3.style.color = 'grey';
-  a4.style.color = 'grey';
+  a1.style.color = 'lightgrey';  
+  a2.style.color = 'lightgrey';
+  a3.style.color = 'lightgrey';
+  a4.style.color = 'lightgrey';
   a5.style.color = 'black';
-  a6.style.color = 'grey';
-  a7.style.color = 'grey';
-  a8.style.color = 'grey';
-  a9.style.color = 'grey';
-  a10.style.color = 'grey';
-  a11.style.color = 'grey';
-  a12.style.color = 'grey';
-  a13.style.color = 'grey';
-  a14.style.color = 'grey';
+  a6.style.color = 'lightgrey';
+  a7.style.color = 'lightgrey';
+  a8.style.color = 'lightgrey';
+  a9.style.color = 'lightgrey';
+  a10.style.color = 'lightgrey';
+  a11.style.color = 'lightgrey';
+  a12.style.color = 'lightgrey';
+  a13.style.color = 'lightgrey';
+  a14.style.color = 'lightgrey';
 
 } 
 
 if(tiempoDeVideo > 58) {
-  a1.style.color = 'grey';  
-  a2.style.color = 'grey';
-  a3.style.color = 'grey';
-  a4.style.color = 'grey';
-  a5.style.color = 'grey';
+  a1.style.color = 'lightgrey';  
+  a2.style.color = 'lightgrey';
+  a3.style.color = 'lightgrey';
+  a4.style.color = 'lightgrey';
+  a5.style.color = 'lightgrey';
   a6.style.color = 'black';
-  a7.style.color = 'grey';
-  a8.style.color = 'grey';
-  a9.style.color = 'grey';
-  a10.style.color = 'grey';
-  a11.style.color = 'grey';
-  a12.style.color = 'grey';
-  a13.style.color = 'grey';
-  a14.style.color = 'grey';
+  a7.style.color = 'lightgrey';
+  a8.style.color = 'lightgrey';
+  a9.style.color = 'lightgrey';
+  a10.style.color = 'lightgrey';
+  a11.style.color = 'lightgrey';
+  a12.style.color = 'lightgrey';
+  a13.style.color = 'lightgrey';
+  a14.style.color = 'lightgrey';
 
 } 
 
 if(tiempoDeVideo > 69) {
-  a1.style.color = 'grey';  
-  a2.style.color = 'grey';
-  a3.style.color = 'grey';
-  a4.style.color = 'grey';
-  a5.style.color = 'grey';
-  a6.style.color = 'grey';
+  a1.style.color = 'lightgrey';  
+  a2.style.color = 'lightgrey';
+  a3.style.color = 'lightgrey';
+  a4.style.color = 'lightgrey';
+  a5.style.color = 'lightgrey';
+  a6.style.color = 'lightgrey';
   a7.style.color = 'black';
-  a8.style.color = 'grey';
-  a9.style.color = 'grey';
-  a10.style.color = 'grey';
-  a11.style.color = 'grey';
-  a12.style.color = 'grey';
-  a13.style.color = 'grey';
-  a14.style.color = 'grey';
+  a8.style.color = 'lightgrey';
+  a9.style.color = 'lightgrey';
+  a10.style.color = 'lightgrey';
+  a11.style.color = 'lightgrey';
+  a12.style.color = 'lightgrey';
+  a13.style.color = 'lightgrey';
+  a14.style.color = 'lightgrey';
 
 } 
 
 if(tiempoDeVideo > 80) {
-  a1.style.color = 'grey';  
-  a2.style.color = 'grey';
-  a3.style.color = 'grey';
-  a4.style.color = 'grey';
-  a5.style.color = 'grey';
-  a6.style.color = 'grey';
-  a7.style.color = 'grey';
+  a1.style.color = 'lightgrey';  
+  a2.style.color = 'lightgrey';
+  a3.style.color = 'lightgrey';
+  a4.style.color = 'lightgrey';
+  a5.style.color = 'lightgrey';
+  a6.style.color = 'lightgrey';
+  a7.style.color = 'lightgrey';
   a8.style.color = 'black';
-  a9.style.color = 'grey';
-  a10.style.color = 'grey';
-  a11.style.color = 'grey';
-  a12.style.color = 'grey';
-  a13.style.color = 'grey';
-  a14.style.color = 'grey';
+  a9.style.color = 'lightgrey';
+  a10.style.color = 'lightgrey';
+  a11.style.color = 'lightgrey';
+  a12.style.color = 'lightgrey';
+  a13.style.color = 'lightgrey';
+  a14.style.color = 'lightgrey';
 
 } 
 
 if(tiempoDeVideo > 90) {
-  a1.style.color = 'grey';  
-  a2.style.color = 'grey';
-  a3.style.color = 'grey';
-  a4.style.color = 'grey';
-  a5.style.color = 'grey';
-  a6.style.color = 'grey';
-  a7.style.color = 'grey';
-  a8.style.color = 'grey';
+  a1.style.color = 'lightgrey';  
+  a2.style.color = 'lightgrey';
+  a3.style.color = 'lightgrey';
+  a4.style.color = 'lightgrey';
+  a5.style.color = 'lightgrey';
+  a6.style.color = 'lightgrey';
+  a7.style.color = 'lightgrey';
+  a8.style.color = 'lightgrey';
   a9.style.color = 'black';
-  a10.style.color = 'grey';
-  a11.style.color = 'grey';
-  a12.style.color = 'grey';
-  a13.style.color = 'grey';
-  a14.style.color = 'grey';
+  a10.style.color = 'lightgrey';
+  a11.style.color = 'lightgrey';
+  a12.style.color = 'lightgrey';
+  a13.style.color = 'lightgrey';
+  a14.style.color = 'lightgrey';
 
 } 
 
 if(tiempoDeVideo > 101) {
-  a1.style.color = 'grey';  
-  a2.style.color = 'grey';
-  a3.style.color = 'grey';
-  a4.style.color = 'grey';
-  a5.style.color = 'grey';
-  a6.style.color = 'grey';
-  a7.style.color = 'grey';
-  a8.style.color = 'grey';
-  a9.style.color = 'grey';
+  a1.style.color = 'lightgrey';  
+  a2.style.color = 'lightgrey';
+  a3.style.color = 'lightgrey';
+  a4.style.color = 'lightgrey';
+  a5.style.color = 'lightgrey';
+  a6.style.color = 'lightgrey';
+  a7.style.color = 'lightgrey';
+  a8.style.color = 'lightgrey';
+  a9.style.color = 'lightgrey';
   a10.style.color = 'black';
-  a11.style.color = 'grey';
-  a12.style.color = 'grey';
-  a13.style.color = 'grey';
-  a14.style.color = 'grey';
+  a11.style.color = 'lightgrey';
+  a12.style.color = 'lightgrey';
+  a13.style.color = 'lightgrey';
+  a14.style.color = 'lightgrey';
 
 } 
 
 if(tiempoDeVideo > 111) {
-  a1.style.color = 'grey';  
-  a2.style.color = 'grey';
-  a3.style.color = 'grey';
-  a4.style.color = 'grey';
-  a5.style.color = 'grey';
-  a6.style.color = 'grey';
-  a7.style.color = 'grey';
-  a8.style.color = 'grey';
-  a9.style.color = 'grey';
-  a10.style.color = 'grey';
+  a1.style.color = 'lightgrey';  
+  a2.style.color = 'lightgrey';
+  a3.style.color = 'lightgrey';
+  a4.style.color = 'lightgrey';
+  a5.style.color = 'lightgrey';
+  a6.style.color = 'lightgrey';
+  a7.style.color = 'lightgrey';
+  a8.style.color = 'lightgrey';
+  a9.style.color = 'lightgrey';
+  a10.style.color = 'lightgrey';
   a11.style.color = 'black';
-  a12.style.color = 'grey';
-  a13.style.color = 'grey';
-  a14.style.color = 'grey';
+  a12.style.color = 'lightgrey';
+  a13.style.color = 'lightgrey';
+  a14.style.color = 'lightgrey';
 
 } 
 
 if(tiempoDeVideo > 122) {
-  a1.style.color = 'grey';  
-  a2.style.color = 'grey';
-  a3.style.color = 'grey';
-  a4.style.color = 'grey';
-  a5.style.color = 'grey';
-  a6.style.color = 'grey';
-  a7.style.color = 'grey';
-  a8.style.color = 'grey';
-  a9.style.color = 'grey';
-  a10.style.color = 'grey';
-  a11.style.color = 'grey';
+  a1.style.color = 'lightgrey';  
+  a2.style.color = 'lightgrey';
+  a3.style.color = 'lightgrey';
+  a4.style.color = 'lightgrey';
+  a5.style.color = 'lightgrey';
+  a6.style.color = 'lightgrey';
+  a7.style.color = 'lightgrey';
+  a8.style.color = 'lightgrey';
+  a9.style.color = 'lightgrey';
+  a10.style.color = 'lightgrey';
+  a11.style.color = 'lightgrey';
   a12.style.color = 'black';
-  a13.style.color = 'grey';
-  a14.style.color = 'grey';
+  a13.style.color = 'lightgrey';
+  a14.style.color = 'lightgrey';
 
 } 
 
 if(tiempoDeVideo > 131) {
-  a1.style.color = 'grey';  
-  a2.style.color = 'grey';
-  a3.style.color = 'grey';
-  a4.style.color = 'grey';
-  a5.style.color = 'grey';
-  a6.style.color = 'grey';
-  a7.style.color = 'grey';
-  a8.style.color = 'grey';
-  a9.style.color = 'grey';
-  a10.style.color = 'grey';
-  a11.style.color = 'grey';
-  a12.style.color = 'grey';
+  a1.style.color = 'lightgrey';  
+  a2.style.color = 'lightgrey';
+  a3.style.color = 'lightgrey';
+  a4.style.color = 'lightgrey';
+  a5.style.color = 'lightgrey';
+  a6.style.color = 'lightgrey';
+  a7.style.color = 'lightgrey';
+  a8.style.color = 'lightgrey';
+  a9.style.color = 'lightgrey';
+  a10.style.color = 'lightgrey';
+  a11.style.color = 'lightgrey';
+  a12.style.color = 'lightgrey';
   a13.style.color = 'black';
-  a14.style.color = 'grey';
+  a14.style.color = 'lightgrey';
 
 } 
 
 if(tiempoDeVideo > 131) {
-  a1.style.color = 'grey';  
-  a2.style.color = 'grey';
-  a3.style.color = 'grey';
-  a4.style.color = 'grey';
-  a5.style.color = 'grey';
-  a6.style.color = 'grey';
-  a7.style.color = 'grey';
-  a8.style.color = 'grey';
-  a9.style.color = 'grey';
-  a10.style.color = 'grey';
-  a11.style.color = 'grey';
-  a12.style.color = 'grey';
+  a1.style.color = 'lightgrey';  
+  a2.style.color = 'lightgrey';
+  a3.style.color = 'lightgrey';
+  a4.style.color = 'lightgrey';
+  a5.style.color = 'lightgrey';
+  a6.style.color = 'lightgrey';
+  a7.style.color = 'lightgrey';
+  a8.style.color = 'lightgrey';
+  a9.style.color = 'lightgrey';
+  a10.style.color = 'lightgrey';
+  a11.style.color = 'lightgrey';
+  a12.style.color = 'lightgrey';
   a13.style.color = 'black';
-  a14.style.color = 'grey';
+  a14.style.color = 'lightgrey';
 
 }
 
 if(tiempoDeVideo > 142) {
-  a1.style.color = 'grey';  
-  a2.style.color = 'grey';
-  a3.style.color = 'grey';
-  a4.style.color = 'grey';
-  a5.style.color = 'grey';
-  a6.style.color = 'grey';
-  a7.style.color = 'grey';
-  a8.style.color = 'grey';
-  a9.style.color = 'grey';
-  a10.style.color = 'grey';
-  a11.style.color = 'grey';
-  a12.style.color = 'grey';
-  a13.style.color = 'grey';
+  a1.style.color = 'lightgrey';  
+  a2.style.color = 'lightgrey';
+  a3.style.color = 'lightgrey';
+  a4.style.color = 'lightgrey';
+  a5.style.color = 'lightgrey';
+  a6.style.color = 'lightgrey';
+  a7.style.color = 'lightgrey';
+  a8.style.color = 'lightgrey';
+  a9.style.color = 'lightgrey';
+  a10.style.color = 'lightgrey';
+  a11.style.color = 'lightgrey';
+  a12.style.color = 'lightgrey';
+  a13.style.color = 'lightgrey';
   a14.style.color = 'black';
 
 }
 
 if(tiempoDeVideo > 153) {
-  a1.style.color = 'grey';  
-  a2.style.color = 'grey';
-  a3.style.color = 'grey';
-  a4.style.color = 'grey';
-  a5.style.color = 'grey';
-  a6.style.color = 'grey';
-  a7.style.color = 'grey';
-  a8.style.color = 'grey';
-  a9.style.color = 'grey';
-  a10.style.color = 'grey';
-  a11.style.color = 'grey';
-  a12.style.color = 'grey';
-  a13.style.color = 'grey';
-  a14.style.color = 'grey';
+  a1.style.color = 'lightgrey';  
+  a2.style.color = 'lightgrey';
+  a3.style.color = 'lightgrey';
+  a4.style.color = 'lightgrey';
+  a5.style.color = 'lightgrey';
+  a6.style.color = 'lightgrey';
+  a7.style.color = 'lightgrey';
+  a8.style.color = 'lightgrey';
+  a9.style.color = 'lightgrey';
+  a10.style.color = 'lightgrey';
+  a11.style.color = 'lightgrey';
+  a12.style.color = 'lightgrey';
+  a13.style.color = 'lightgrey';
+  a14.style.color = 'lightgrey';
 
 }
 
 if(tiempoDeVideo > 154) {
-  a1.style.color = 'grey';  
-  a2.style.color = 'grey';
-  a3.style.color = 'grey';
-  a4.style.color = 'grey';
-  a5.style.color = 'grey';
-  a6.style.color = 'grey';
-  a7.style.color = 'grey';
-  a8.style.color = 'grey';
-  a9.style.color = 'grey';
-  a10.style.color = 'grey';
-  a11.style.color = 'grey';
-  a12.style.color = 'grey';
-  a13.style.color = 'grey';
-  a14.style.color = 'grey';
+  a1.style.color = 'lightgrey';  
+  a2.style.color = 'lightgrey';
+  a3.style.color = 'lightgrey';
+  a4.style.color = 'lightgrey';
+  a5.style.color = 'lightgrey';
+  a6.style.color = 'lightgrey';
+  a7.style.color = 'lightgrey';
+  a8.style.color = 'lightgrey';
+  a9.style.color = 'lightgrey';
+  a10.style.color = 'lightgrey';
+  a11.style.color = 'lightgrey';
+  a12.style.color = 'lightgrey';
+  a13.style.color = 'lightgrey';
+  a14.style.color = 'lightgrey';
   a15.style.color = 'black';
 
 }
