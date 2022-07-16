@@ -171,6 +171,20 @@
   
        .italica{font-weight: bold;
         color: rgb(75, 75, 75);}
+
+    .gakavig1{font-size: 24px; 
+            font-weight: 700;
+            color: rgb(70, 70, 70);
+            text-decoration: underline;}
+
+    .gakavig2{font-size: 18px;
+             text-decoration: none;
+            color: #000;}
+
+    .ChinarEsShogherYanTraduccion{font-size: 24px; 
+                                  font-weight: 700;
+                                  color: rgb(70, 70, 70);
+                                   }
   
      /* parte responsive----------------------------------------------------------------
      -----------------------------------------------------------------------------------
