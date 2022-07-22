@@ -10,7 +10,7 @@ tag.src = "https://www.youtube.com/iframe_api";
 var player;
 function onYouTubeIframeAPIReady() {
    player = new YT.Player('player', {
-     height: '550',
+     height: '371',
      width: '660',
      videoId: 'O52kX6Ji9Bk',
      playerVars: { 
