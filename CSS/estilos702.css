@@ -272,6 +272,10 @@
  
      .player{height: 50%;
      width: 100%;}
+
+     .iarKoParag{text-decoration: none; color:black; 
+      background: #e9e9e9; padding: 10px;
+      width: 100%; padding-bottom: 5%; padding-top: 2%;}
          
                 
    }
@@ -368,6 +372,10 @@
  
      .player{height: 50%;
      width: 100%;}
+
+     .iarKoParag{text-decoration: none; color:black; 
+      background: #e9e9e9; padding: 10px;
+      width: 100%; padding-bottom: 5%; padding-top: 2%;}
          
                 
    }
@@ -460,6 +468,9 @@
      .player{height: 50%;
      width: 100%;}
          
+     .iarKoParag{text-decoration: none; color:black; 
+      background: #e9e9e9; padding: 10px;
+      width: 100%; padding-bottom: 5%; padding-top: 2%;}
                 
    }
  
@@ -552,6 +563,10 @@
  
      .player{height: 50%;
      width: 100%;}
+
+     .iarKoParag{text-decoration: none; color:black; 
+      background: #e9e9e9; padding: 10px;
+      width: 100%; padding-bottom: 5%; padding-top: 2%;}
          
                 
    }
@@ -647,6 +662,10 @@
  
        .player{height: 50%;
        width: 100%;}
+
+       .iarKoParag{text-decoration: none; color:black; 
+        background: #e9e9e9; padding: 10px;
+        width: 100%; padding-bottom: 5%; padding-top: 2%;}
            
                   
      }
@@ -735,6 +754,11 @@
  
        .player{height: 50%;
                width: 100%;}
+
+
+       .iarKoParag{text-decoration: none; color:black; 
+       background: #e9e9e9; padding: 10px;
+       width: 100%; padding-bottom: 5%; padding-top: 2%;}
            
                   
      }
