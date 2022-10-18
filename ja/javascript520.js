@@ -340,13 +340,15 @@ if(tiempoDeVideo > 19.3) {
   } 
 
   if(tiempoDeVideo > 112) {
-    a9.style.textDecoration = 'underline';}
-  
+    a9.style.textDecoration = 'underline';
+    a9.style.color = '#c51130';}
+   
 
   if(tiempoDeVideo > 123) {
           
-    a9.style.color = '#c51130';
+    
     a9.style.textDecoration = 'none';
+    a9.style.fontSize = '125%';
   } 
 
   if(tiempoDeVideo > 126) {
@@ -495,12 +497,14 @@ if(tiempoDeVideo > 19.3) {
 
     if(tiempoDeVideo > 172.5) {
       a17.style.textDecoration = 'underline';
+      a17.style.color = '#c51130';
       }
 
       if(tiempoDeVideo > 195) {
     
-    a17.style.color = '#c51130';
+     
     a17.style.textDecoration = 'none';
+    a17.style.fontSize = '125%';
   }
 
 
