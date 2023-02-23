@@ -1,4 +1,3 @@
- 
 var tag = document.createElement('script');
 
 tag.src = "https://www.youtube.com/iframe_api";
@@ -302,16 +301,18 @@ function onYouTubeIframeAPIReady() {
   
   if(tiempoDeVideo > 58) {
     a26.style.color = 'black';
-    a26.style.fontSize = '100%'
-   
+    a26.style.fontSize = '100%';
+    a27.style.textDecoration = 'underline';
+    
+    a27.style.color = '#ff44d4';
   } 
-
 
   
   if(tiempoDeVideo > 76.5) {
     
     a27.style.color = '#5c702a';
-    a27.style.fontSize = '125%'
+    a27.style.fontSize = '125%';
+    a27.style.textDecoration = 'none';
   } 
 
 
@@ -458,9 +459,12 @@ function onYouTubeIframeAPIReady() {
   }
 
 
-   if(tiempoDeVideo > 123) {
+   if(tiempoDeVideo > 122) {
     a45.style.color = 'black';
    a45.style.fontSize = '100%'
+   a46.style.textDecoration = 'underline';
+    
+   a46.style.color = '#ff44d4';
     
   }
 
@@ -469,7 +473,8 @@ function onYouTubeIframeAPIReady() {
       if(tiempoDeVideo > 151) {
     
    a46.style.color = '#148f13';
-   a46.style.fontSize = '125%'
+   a46.style.fontSize = '125%';
+   a46.style.textDecoration = 'none';
   }
 
 
@@ -516,8 +521,6 @@ function onYouTubeIframeAPIReady() {
   }
 
 /*
-
-
 */
 
  }
@@ -556,32 +559,3 @@ setInterval(() => {
 }, 100);
 
  
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
