@@ -32,6 +32,7 @@ function onYouTubeIframeAPIReady() {
 
  var a0 = document.getElementById('a00');
  var a0 = document.getElementById('a0');
+ var a000 = document.getElementById('a000');
  var a1 = document.getElementById('a1');
  var a2 = document.getElementById('a2');
  var a3 = document.getElementById('a3');
@@ -138,7 +139,45 @@ function onYouTubeIframeAPIReady() {
      
   }
 
+  if(tiempoDeVideo > 32) {
+    a000.style.color = 'black';  
+     
+  }
 
+  if(tiempoDeVideo > 33) {
+    a000.style.color = 'white';  
+     
+  }
+
+  if(tiempoDeVideo > 34) {
+    a000.style.color = 'black';  
+     
+  }
+
+  if(tiempoDeVideo > 35) {
+    a000.style.color = 'white';  
+     
+  }
+
+  if(tiempoDeVideo > 36) {
+    a000.style.color = 'black';  
+     
+  }
+
+  if(tiempoDeVideo > 37) {
+    a000.style.color = 'white';  
+     
+  }
+
+  if(tiempoDeVideo > 38) {
+    a000.style.color = 'black';  
+     
+  }
+
+  if(tiempoDeVideo > 39) {
+    a000.style.color = 'white';  
+     
+  }
 
  
   if(tiempoDeVideo > 50) {
