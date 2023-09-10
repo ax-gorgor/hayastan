@@ -44,14 +44,15 @@ function onYouTubeIframeAPIReady() {
   if(tiempoDeVideo > 18.5) {
     a1.style.color = '#c51130'; //rojo    //1
     a1.style.fontSize = '115%'
-    a1.style.transition = 'font-size 0.5s ease';
+    a1.style.transition = 'font-size 0.3s ease';
   } 
    
   if(tiempoDeVideo > 29) {
     a1.style.color = 'black';
     a2.style.color = '#c51130'; 
     a1.style.fontSize = '100%';
-    a2.style.fontSize = '115%'
+    a2.style.fontSize = '115%';
+    a1.style.transition = 'none';
 
   } 
   
@@ -60,6 +61,7 @@ function onYouTubeIframeAPIReady() {
    a1.style.color = '#c51130'; //naranja //3
    a1.style.fontSize = '115%';
    a2.style.fontSize = '100%';
+   a1.style.transition = 'none';
   } 
   
    if(tiempoDeVideo > 50) {
