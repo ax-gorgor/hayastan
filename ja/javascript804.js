@@ -11,7 +11,7 @@ function onYouTubeIframeAPIReady() {
    player = new YT.Player('player', {
      height: '100%',
      width: '48%',
-     videoId: 'lvGQCUrGBmA',
+     videoId: 'KgMUfMjExdg',
      
      events: {
        'onStateChange': onPlayerStateChange
@@ -41,216 +41,234 @@ function onYouTubeIframeAPIReady() {
 
   var tiempoDeVideo = player.getCurrentTime();
 
-  if(tiempoDeVideo > 24) {
+  if(tiempoDeVideo > 18.5) {
     a1.style.color = '#c51130'; //rojo    //1
     a1.style.fontSize = '115%'
+    a1.style.transition = 'font-size 0.5s ease';
   } 
-  
-  if(tiempoDeVideo > 33) {
+   
+  if(tiempoDeVideo > 29) {
     a1.style.color = 'black';
-    a2.style.color = '#c51130'; //azul //2
+    a2.style.color = '#c51130'; 
     a1.style.fontSize = '100%';
     a2.style.fontSize = '115%'
 
   } 
   
-  if(tiempoDeVideo > 43.5) {
+  if(tiempoDeVideo > 40) {
     a2.style.color = 'black';
    a1.style.color = '#c51130'; //naranja //3
    a1.style.fontSize = '115%';
    a2.style.fontSize = '100%';
   } 
- 
-   if(tiempoDeVideo > 53) {
+  
+   if(tiempoDeVideo > 50) {
     a1.style.color = 'black';           //4
     a2.style.color = '#c51130';
-    a1.style.fontSize = '100%'
-    a2.style.fontSize = '115%'
+    a1.style.fontSize = '100%';
+    a2.style.fontSize = '115%';
    } 
- 
-   if(tiempoDeVideo > 62) {
+  
+   if(tiempoDeVideo > 59) {
     a2.style.color = 'black';           //5
     a3.style.color = '#c51130';
-    a2.style.fontSize = '100%'
-    a3.style.fontSize = '105%'
+    a2.style.fontSize = '100%';
+    a3.style.fontSize = '115%';
    } 
- 
-  if(tiempoDeVideo > 72) {
+  
+  if(tiempoDeVideo > 70.5) {
     a3.style.color = 'black';           //6
     a4.style.color = '#c51130';
-    a3.style.fontSize = '100%'
-    a4.style.fontSize = '115%'
+    a3.style.fontSize = '100%';
+    a4.style.fontSize = '115%';
   } 
- 
+  
   if(tiempoDeVideo > 81.5) {
-    a4.style.color = 'black';           //7
+   a4.style.color = 'black';           //7
    a5.style.color = '#c51130'; //naranja
-   a4.style.fontSize = '100%'
-   a5.style.fontSize = '115%'
+   a4.style.fontSize = '100%';
+   a5.style.fontSize = '115%';
   } 
- 
-   if(tiempoDeVideo > 86.5) {
+  
+   if(tiempoDeVideo > 87.5) {
     a5.style.color = 'black';           //3
     a6.style.color = '#c51130';
-    a5.style.fontSize = '100%'
-    a6.style.fontSize = '115%'
+    a5.style.fontSize = '100%';
+    a6.style.fontSize = '115%';
    } 
  
    
 
-  if(tiempoDeVideo > 91.5) {
+  if(tiempoDeVideo > 93) {
     a6.style.color = 'black';            //5
     a7.style.color = '#c51130';
-    a6.style.fontSize = '100%'
-    a7.style.fontSize = '115%'
+    a6.style.fontSize = '100%';
+    a7.style.fontSize = '115%';
   } 
- 
-  if(tiempoDeVideo > 95.5) {
+  
+  if(tiempoDeVideo > 97.5) {
     a7.style.color = 'black';           //6
     a8.style.color = '#c51130';
-    a7.style.fontSize = '100%'
-    a8.style.fontSize = '115%'
+    a7.style.fontSize = '100%';
+    a8.style.fontSize = '115%';
   } 
- 
-  if(tiempoDeVideo > 102) {
+  
+  if(tiempoDeVideo > 103.5) {
     a8.style.color = 'black';           //7
     a5.style.color = '#c51130';
-    a8.style.fontSize = '100%'
-    a5.style.fontSize = '115%'
+    a8.style.fontSize = '100%';
+    a5.style.fontSize = '115%';
   } 
- 
-  if(tiempoDeVideo > 106.5) {
+  
+  if(tiempoDeVideo > 109) {
     a5.style.color = 'black';           //4
     a6.style.color = '#c51130';
-    a5.style.fontSize = '100%'
-    a6.style.fontSize = '115%'
+    a5.style.fontSize = '100%';
+    a6.style.fontSize = '115%';
    } 
- 
-  if(tiempoDeVideo > 111) {
+  
+  if(tiempoDeVideo > 114) {
     a6.style.color = 'black';           //6
     a7.style.color = '#c51130';
-    a6.style.fontSize = '100%'
-    a7.style.fontSize = '115%'
+    a6.style.fontSize = '100%';
+    a7.style.fontSize = '115%';
   } 
- 
-  if(tiempoDeVideo > 115) {
+  
+  if(tiempoDeVideo > 119) {
     a7.style.color = 'black';           //7
     a8.style.color = '#c51130';
-    a7.style.fontSize = '100%'
-    a8.style.fontSize = '115%'
+    a7.style.fontSize = '100%';
+    a8.style.fontSize = '115%';
   } 
    
-  if(tiempoDeVideo > 121) {
+
+  if(tiempoDeVideo > 125) {
+
     a8.style.color = 'black';
-    a9.style.color = '#c51130';  
-    a8.style.fontSize = '100%'         //7
+    a8.style.fontSize = '100%';     
+    a9.style.fontSize = '115%';
+    a9.style.textDecoration = 'underline';
+    a9.style.transition = 'font-size 1.5s ease';
+     
+  } 
+  
+
+  if(tiempoDeVideo > 133) {
+    
+    a9.style.color = '#c51130';
     a9.style.fontSize = '115%'
+    a9.style.textDecoration = 'none';
+    a9.style.transition = 'none';
      
   } 
  
    
-  if(tiempoDeVideo > 131) {
+  if(tiempoDeVideo > 143) {
     a9.style.color = 'black';
-    a10.style.color = '#c51130'; //azul //2
-    a9.style.fontSize = '100%'
-    a10.style.fontSize = '115%'
+    a10.style.color = '#c51130';  
+    a9.style.fontSize = '100%';
+    a10.style.fontSize = '115%';
   } 
 
    
-  if(tiempoDeVideo > 141) {
+  if(tiempoDeVideo > 154) {
     a10.style.color = 'black';
-   a9.style.color = '#c51130'; //naranja //3
-   a10.style.fontSize = '100%'
-   a9.style.fontSize = '115%'
+   a9.style.color = '#c51130'; 
+   a10.style.fontSize = '100%';
+   a9.style.fontSize = '115%';
   } 
- 
-   if(tiempoDeVideo > 150) {
-    a9.style.color = 'black';           //4
+  
+   if(tiempoDeVideo > 165) {
+    a9.style.color = 'black';           
     a10.style.color = '#c51130';
-    a9.style.fontSize = '100%'
-    a10.style.fontSize = '115%'
+    a9.style.fontSize = '100%';
+    a10.style.fontSize = '115%';
    } 
- 
-   if(tiempoDeVideo > 159.5) {
-    a10.style.color = 'black';           //5
+  
+   if(tiempoDeVideo > 175) {
+    a10.style.color = 'black';            
     a11.style.color = '#c51130';
-    a10.style.fontSize = '100%'
-    a11.style.fontSize = '115%'
+    a10.style.fontSize = '100%';
+    a11.style.fontSize = '115%';
    } 
- 
-  if(tiempoDeVideo > 169) {
-    a11.style.color = 'black';           //6
+  
+  if(tiempoDeVideo > 185.5) {
+    a11.style.color = 'black';           
     a12.style.color = '#c51130';
-    a11.style.fontSize = '100%'
-    a12.style.fontSize = '115%'
+    a11.style.fontSize = '100%';
+    a12.style.fontSize = '115%';
   } 
  
-  if(tiempoDeVideo > 179.5) {
-    a12.style.color = 'black';           //7
-   a13.style.color = '#c51130'; //naranja
-   a12.style.fontSize = '100%'
-   a13.style.fontSize = '115%'
+  if(tiempoDeVideo > 195.5) {
+    a12.style.color = 'black';           
+   a13.style.color = '#c51130';  
+   a12.style.fontSize = '100%';
+   a13.style.fontSize = '115%';
   } 
 
    
 
-  if(tiempoDeVideo > 184.5) {
+  if(tiempoDeVideo > 202) {
     a13.style.color = 'black';
    a14.style.color = '#c51130'; //naranja //3
-   a13.style.fontSize = '100%'
-   a14.style.fontSize = '115%'
+   a13.style.fontSize = '100%';
+   a14.style.fontSize = '115%';
   } 
  
-  if(tiempoDeVideo > 189) {
+  if(tiempoDeVideo > 207.5) {
     a14.style.color = 'black';
     a15.style.color = '#c51130';
-    a14.style.fontSize = '100%'
-    a15.style.fontSize = '115%'
+    a14.style.fontSize = '100%';
+    a15.style.fontSize = '115%';
     
   }
  
-
-  if(tiempoDeVideo > 194) {
+ 
+  if(tiempoDeVideo > 212) {
     a15.style.color = 'black';
     a16.style.color = '#c51130';
-    a16.style.fontSize = '115%'
-    a15.style.fontSize = '100%'
+    a16.style.fontSize = '115%';
+    a15.style.fontSize = '100%';
     
   }
  
-
-  if(tiempoDeVideo > 199) {
-    a16.style.color = 'black';
-   a13.style.color = '#c51130'; //naranja //3
-   a16.style.fontSize = '100%'
-   a13.style.fontSize = '115%'
-  } 
  
-  if(tiempoDeVideo > 204) {
+  if(tiempoDeVideo > 217.5) {
+    a16.style.color = 'black';
+   a13.style.color = '#c51130';  
+   a16.style.fontSize = '100%';
+   a13.style.fontSize = '115%';
+   
+  } 
+  
+  if(tiempoDeVideo > 224) {
     a13.style.color = 'black';
    a14.style.color = '#c51130'; //naranja //3
-   a13.style.fontSize = '100%'
-   a14.style.fontSize = '115%'
+   a13.style.fontSize = '100%';
+   a14.style.fontSize = '115%';
+   
   } 
- 
-  if(tiempoDeVideo > 209) {
+  
+  if(tiempoDeVideo > 229) {
     a14.style.color = 'black';
    a15.style.color = '#c51130'; //naranja //3
-   a14.style.fontSize = '100%'
-   a15.style.fontSize = '115%'
+   a14.style.fontSize = '100%';
+   a15.style.fontSize = '115%';
+   
   } 
- 
-  if(tiempoDeVideo > 213) {
+  
+  if(tiempoDeVideo > 234) {
     a15.style.color = 'black';
    a16.style.color = '#c51130'; //naranja //3
-   a15.style.fontSize = '100%'
-   a16.style.fontSize = '115%'
+   a15.style.fontSize = '100%';
+   a16.style.fontSize = '115%';
   } 
- 
-  if(tiempoDeVideo > 230) {
+  
+  if(tiempoDeVideo > 254) {
     a16.style.color = 'black';
    
    a16.style.fontSize = '100%';
+   a16.style.transition = 'font-size 1s ease';
    
 
   } 
