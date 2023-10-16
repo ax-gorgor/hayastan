@@ -103,7 +103,10 @@ function onYouTubeIframeAPIReady() {
 
   var tiempoDeVideo = player.getCurrentTime();  //  #b8ca02  #188b1d  #58b036 #7ab887
 
- 
+  if(tiempoDeVideo > -1) {
+    a0000.style.visibility = 'hidden';  
+     
+  }
 
   if(tiempoDeVideo > 23) {
     a0.style.color = '#456c13';  
@@ -140,43 +143,44 @@ function onYouTubeIframeAPIReady() {
   }
 
   if(tiempoDeVideo > 32) {
-    a000.style.color = 'black';  
+    a000.style.color = 'black'; 
+    a0000.style.visibility = 'visible';  
      
   }
 
   if(tiempoDeVideo > 33) {
     a000.style.color = 'white';  
-     
+    a0000.style.visibility = 'hidden';
   }
 
   if(tiempoDeVideo > 34) {
     a000.style.color = 'black';  
-     
+    a0000.style.visibility = 'visible'; 
   }
 
   if(tiempoDeVideo > 35) {
     a000.style.color = 'white';  
-     
+    a0000.style.visibility = 'hidden';
   }
 
   if(tiempoDeVideo > 36) {
     a000.style.color = 'black';  
-     
+    a0000.style.visibility = 'visible';  
   }
 
   if(tiempoDeVideo > 37) {
     a000.style.color = 'white';  
-     
+    a0000.style.visibility = 'hidden'; 
   }
 
   if(tiempoDeVideo > 38) {
     a000.style.color = 'black';  
-     
+    a0000.style.visibility = 'visible'; 
   }
 
   if(tiempoDeVideo > 39) {
     a000.style.color = 'white';  
-     
+    a0000.style.visibility = 'hidden'; 
   }
 
  
