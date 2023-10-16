@@ -33,6 +33,7 @@ function onYouTubeIframeAPIReady() {
  var a0 = document.getElementById('a00');
  var a0 = document.getElementById('a0');
  var a000 = document.getElementById('a000');
+ var a0000 = document.getElementById('a0000');
  var a1 = document.getElementById('a1');
  var a2 = document.getElementById('a2');
  var a3 = document.getElementById('a3');
